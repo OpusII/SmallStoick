@@ -6,763 +6,463 @@ window.STOIC_LIBRARY = [
     "type": "stoic",
     "section": "§ 1",
     "title": "Co je v tvých rukou",
-    "thought": "Něco můžeš řídit přímo: co si o věci myslíš, co chceš udělat a jak se zachováš. Jiné věci můžeš ovlivnit, ale nezaručíš je: zdraví, peníze, pověst nebo reakci druhých. Na pracovní schůzku se můžeš připravit poctivě; jestli tě druhý pochválí, už není jen na tobě.",
-    "question": "Co v dnešní situaci můžeš udělat ty a co už závisí také na jiných?",
-    "step": "Udělej svou část a nech druhému prostor pro jeho odpověď."
+    "thought": "Tvůj úsudek, záměr a způsob jednání patří tobě. Tělo, majetek, pověst ani výsledek ti neposlouchají bez výhrad. Než se rozrušíš, rozliš tyto dvě oblasti.",
+    "question": "O co se dnes snažíš, ale nemůžeš to zaručit?",
+    "step": "Zvol vlastní odpověď místo honby za jistým výsledkem."
   },
   {
     "type": "stoic",
     "section": "§ 2",
     "title": "Přání a odpor",
-    "thought": "Přání, aby se ti něco povedlo, je přirozené. Potíž začíná, když na výsledku trváš, jako bys ho mohl zaručit. Můžeš chtít uspět u pohovoru a připravit se na něj; nemůžeš si přikázat, aby tě přijali. Stejně tak můžeš pečovat o zdraví, ale nemůžeš slíbit, že nikdy neonemocníš.",
-    "question": "Na kterém výsledku teď lpíš, přestože ho nemáš celý ve svých rukou?",
-    "step": "Připrav se na něj, ale nedělej ze záruky podmínku svého klidu."
+    "thought": "Když musíš za každou cenu získat něco, co nezávisí jen na tobě, otevřeš dveře zklamání. Když se za každou cenu chceš vyhnout nemoci či ztrátě, slibuješ si nemožné. Odpor si nech pro vlastní špatné jednání; za potřebným jdi s mírou.",
+    "question": "Který výsledek teď vyžaduješ, ačkoli jej nemáš ve své moci?",
+    "step": "Přej si jednat dobře a o výsledek usiluj bez nároku na záruku."
   },
   {
     "type": "stoic",
     "section": "§ 3",
     "title": "Milovat bez nároku na věčnost",
-    "thought": "Když máš rád člověka nebo věc, připomeň si, že o ně můžeš přijít. Oblíbený hrnek se může rozbít a vztahy nemáme navždy zaručené. Epiktétos tím nemíří proti lásce: vybízí, abys o to víc vnímal, co máš právě teď.",
-    "question": "Koho nebo čeho si dnes můžeš víc všimnout?",
-    "step": "Věnuj tomu chvíli skutečné pozornosti."
+    "thought": "I oblíbený hrnek se může rozbít a milovaný člověk je smrtelný. Epiktétos nechce zakázat lásku; připomíná povahu toho, co miluješ, abys to nepovažoval za nezničitelné.",
+    "question": "Co bereš jako samozřejmé, přestože to může pominout?",
+    "step": "Věnuj tomu dnes pozornost, dokud to máš."
   },
   {
     "type": "stoic",
     "section": "§ 4",
     "title": "Když jdeš do lázní",
-    "thought": "Když jdeš do lázní, počítej s hlukem, tlačenicí nebo neochotným člověkem. Podobně můžeš vyrazit na výlet a narazit na zpožděný vlak. Tvým cílem je užít si výlet, ale také se rozhodnout, jak se při komplikaci zachováš.",
-    "question": "Jaká běžná komplikace tě může dnes potkat?",
-    "step": "Připrav si jednoduchou odpověď, než nastane."
+    "thought": "Jdeš se koupat, ale v lázních mohou být strkanice, hluk i nepříjemní lidé. Měj předem dva záměry: vykoupat se a zachovat rozumné jednání, i když první plán nevyjde hladce.",
+    "question": "Co tě může dnes vyvést z míry při běžném plánu?",
+    "step": "Představ si překážku a svou klidnou odpověď."
   },
   {
     "type": "stoic",
     "section": "§ 5",
     "title": "Událost a soud o ní",
-    "thought": "Událost a tvůj výklad události jsou dvě různé věci. Kamarád neodpověděl na zprávu: to je fakt. „Už se mnou nechce mluvit“ je domněnka, kterou zatím nemáš ověřenou. Když je oddělíš, snáz se rozhodneš, co udělat.",
-    "question": "Co se opravdu stalo a co si o tom zatím jen myslíš?",
-    "step": "Napiš si jeden fakt a jednu domněnku zvlášť."
+    "thought": "To, co se stalo, a tvůj úsudek o tom nejsou jedna věc. I strach ze smrti Epiktétos připisuje tomu, jak o ní soudíme. Než obviníš druhé nebo sebe, prozkoumej svůj výklad.",
+    "question": "Co se stalo a jaký význam tomu teď dáváš?",
+    "step": "Napiš jednu větu s faktem a druhou s výkladem."
   },
   {
     "type": "stoic",
     "section": "§ 6",
     "title": "Kůň a jezdec",
-    "thought": "Představ si člověka, který se chlubí svým koněm, jako by jeho rychlost byla jeho zásluha. Podobně tě nové auto nebo uznání od druhých samo o sobě nedělá lepším člověkem. Víc o tobě říká, jak s tím zacházíš.",
-    "question": "Na co jsi dnes hrdý: na něco, co vlastníš, nebo na to, jak jsi jednal?",
-    "step": "Všimni si jednoho svého poctivého rozhodnutí."
+    "thought": "Pěkný kůň není zásluha jezdce. Podobně tě bohatství či obdiv samy nečiní lepším člověkem. Ptej se raději, jak zacházíš s tím, co se ti přihodí.",
+    "question": "Na čem dnes stavíš svou hrdost: na vlastnictví, nebo na jednání?",
+    "step": "Všimni si rozhodnutí, které bylo opravdu tvoje."
   },
   {
     "type": "stoic",
     "section": "§ 7",
     "title": "Loď čeká v přístavu",
-    "thought": "Námořník si na břehu může nasbírat mušle, ale když loď vyplouvá, musí se vrátit. Epiktétos tak připomíná, že i příjemné věci a blízcí lidé jsou součástí života, který se mění. Užívej si společný čas, aniž bys předpokládal, že zůstane navždy stejný.",
-    "question": "Co máš rád, ale nemáš to navždy zaručené?",
-    "step": "Věnuj tomu dnes pozornost bez telefonu a spěchu."
+    "thought": "Námořník si na břehu může užít drobnosti, ale musí pamatovat na loď, která ho zavolá zpět. Tak Epiktétos připomíná konečnost života a vztahů: važ si jich, ale nepočítej s tím, že je udržíš navždy.",
+    "question": "Co ti život propůjčil na neurčitou dobu?",
+    "step": "Buď s tím dnes chvíli naplno."
   },
   {
     "type": "stoic",
     "section": "§ 8",
     "title": "Přijmi, co nastalo",
-    "thought": "Někdy se věci staly jinak, než sis přál. Můžeš dál bojovat s tím, že prší právě v den výletu, nebo uznat déšť a změnit plán. Přijmout skutečnost znamená začít rozhodovat z toho, co je teď, ne schvalovat každou nepříjemnost.",
-    "question": "Který fakt se ti dnes těžko přijímá?",
-    "step": "Řekni si, co se stalo, a zvol další proveditelný krok."
+    "thought": "Nežádej, aby se každá událost přizpůsobila tvému přání. Podívej se na to, co už skutečně nastalo, a teprve potom zvol další čin. Přijetí faktu není souhlas se vším, co se stalo.",
+    "question": "S jakou hotovou skutečností se stále přetahuješ?",
+    "step": "Pojmenuj fakt bez dodatku „to se nemělo stát“."
   },
   {
     "type": "stoic",
     "section": "§ 9",
     "title": "Tělo může mít překážku",
-    "thought": "Když si poraníš nohu, nemůžeš pokračovat ve výšlapu stejným tempem. To je skutečné omezení a není důvod ho popírat. Pořád ale můžeš rozhodnout, že si odpočineš, vyhledáš pomoc nebo upravíš trasu.",
-    "question": "Jaké omezení dnes potřebuješ vzít vážně?",
-    "step": "Uprav plán tak, aby odpovídal tvým možnostem."
+    "thought": "Nemoc omezí tělo a zranění nohu. Epiktétos rozlišuje tuto překážku od tvé schopnosti zvolit postoj a přiměřený krok. Rozumná péče o tělo patří k tomu kroku.",
+    "question": "Co je dnes skutečně omezené a co můžeš stále rozhodnout?",
+    "step": "Uprav plán podle možností svého těla."
   },
   {
     "type": "stoic",
     "section": "§ 10",
     "title": "Každá situace žádá jinou sílu",
-    "thought": "Každá nepříjemnost je příležitost použít jinou schopnost. Při bolesti se hodí vytrvalost, při urážce trpělivost, při silném pokušení sebekázeň. Nejde o to nepříjemnost vítat; jde o to vybrat dobrou odpověď.",
-    "question": "Jaká schopnost se ti bude hodit v dnešní situaci?",
-    "step": "Pojmenuj ji a použij při nejbližší příležitosti."
+    "thought": "Přijde bolest? Hledej vytrvalost. Někdo tě urazí? Procvič trpělivost. Epiktétos radí v nové situaci nejdřív hledat schopnost, kterou v ní můžeš použít.",
+    "question": "Jakou vlastnost právě potřebuješ?",
+    "step": "Zkus ji v jedné konkrétní odpovědi."
   },
   {
     "type": "stoic",
     "section": "§ 11",
     "title": "Svěřeno na čas",
-    "thought": "Epiktétos říká, že ztracenou věc jsi spíš vrátil, protože ti nikdy nepatřila navždy. Je to tvrdý způsob, jak připomenout, že majetek i společný čas s lidmi mohou skončit. Ztráta může bolet; vděčnost za to, co bylo, tím nezmizí.",
-    "question": "Co jsi pokládal za trvalé, ačkoli to trvalé být nemusí?",
-    "step": "Připomeň si, co ti to dalo, dokud to bylo s tebou."
+    "thought": "Epiktétos provokativně mluví o ztrátě jako o vrácení toho, co ti bylo dočasně svěřeno. Neříká, že ztráta nebolí. Připomíná, že věci ani lidé nejsou trvalým majetkem.",
+    "question": "S čím zacházíš, jako by ti to muselo zůstat navždy?",
+    "step": "Važ si toho, co máš, bez předstírání jistoty."
   },
   {
     "type": "stoic",
     "section": "§ 12",
     "title": "Cena drobné nepříjemnosti",
-    "thought": "Rozlitý olej nebo ukradené víno zamrzí. Epiktétos se ptá, jestli kvůli malé škodě musíš přijít ještě o celé odpoledne klidu. Někdy je rozumné věc vyřešit a dál už ji v hlavě nepřehrávat.",
-    "question": "Která drobná nepříjemnost ti dnes bere víc času, než stojí za to?",
-    "step": "Vyřeš, co jde, a pak se vrať k tomu, co chceš dělat."
+    "thought": "Rozlil se olej nebo někdo odnesl trochu vína? Epiktétos říká: možná je to malá cena za zachovaný klid. Ne každou škodu musíš proměnit v dlouhý vnitřní spor.",
+    "question": "Která maličkost ti dnes bere víc klidu, než stojí?",
+    "step": "Zvaž, zda ji můžeš nechat být."
   },
   {
     "type": "stoic",
     "section": "§ 13",
     "title": "Nemusíš vypadat důležitě",
-    "thought": "Když začneš žít podle svých zásad, někdo tě může pokládat za podivína. Třeba odmítneš pomlouvat, a skupina si z tebe udělá legraci. Epiktétos radí nevyměnit vlastní rozhodnutí za lepší pověst v cizích očích.",
-    "question": "Měníš někdy svůj názor jen proto, aby ses zalíbil?",
-    "step": "Při příštím rozhodnutí si dej chvíli na vlastní úsudek."
+    "thought": "Když se učíš žít podle zásad, můžeš před druhými vypadat pošetile nebo nevýznamně. Epiktétos tě vyzývá nevyměnit vlastní úsudek za pověst člověka, který všechno ví.",
+    "question": "Kde chceš působit chytřeji, než je třeba?",
+    "step": "Dovol si jednou nic nedokazovat."
   },
   {
     "type": "stoic",
     "section": "§ 14",
     "title": "Druzí nejsou tvým majetkem",
-    "thought": "Nemůžeš zařídit, aby blízcí nikdy neonemocněli nebo neudělali chybu. Můžeš jim pomáhat a mluvit s nimi, ale jejich život není pod tvým řízením. Epiktétos hledá svobodu v tom, že si od druhých neslibuješ nemožné.",
-    "question": "Co bys chtěl mít u druhého člověka pod kontrolou?",
-    "step": "Místo řízení jeho života nabídni něco, co je ve tvých silách."
+    "thought": "Nemůžeš zaručit, že blízcí budou žít navždy ani že neudělají chybu. Můžeš však pracovat s vlastními přáními a odpovědí na jejich jednání. V tom Epiktétos hledá svobodu.",
+    "question": "Po kom chceš něco, co mu nedokážeš přikázat?",
+    "step": "Řekni, co potřebuješ, a uznej jeho vlastní vůli."
   },
   {
     "type": "stoic",
     "section": "§ 15",
     "title": "U stolu ber s mírou",
-    "thought": "Na hostině si vezmeš jídlo, které k tobě právě došlo. Když mísa mine tvé místo, nemusíš ji honit; na další můžeš chvíli počkat. Epiktétos tím mluví i o příležitostech: využij ty, které přijdou, ale nesnaž se každou urvat za každou cenu.",
-    "question": "Kterou příležitost teď zbytečně honíš?",
-    "step": "Udělej přiměřený krok a dej výsledku čas."
+    "thought": "Na hostině si vezmi přiměřeně z toho, co přišlo. Co minulo, nech jít; co ještě nepřišlo, netahej k sobě. Epiktétos touto hostinou popisuje vztah k příležitostem, poctám i bohatství.",
+    "question": "Po čem právě natahuješ ruku příliš netrpělivě?",
+    "step": "Udělej svůj díl a nech věcem prostor."
   },
   {
     "type": "stoic",
     "section": "§ 16",
     "title": "Buď nablízku truchlícímu",
-    "thought": "Když někdo truchlí, nepotřebuje slyšet poučku, že si za smutek může svým pohledem. Můžeš s ním chvíli být a vyslechnout ho. Epiktétos zároveň připomíná, že nemusíš převzít jeho bolest jako vlastní, abys mu byl nablízku.",
-    "question": "Kdo dnes spíš potřebuje vyslechnout než poučit?",
-    "step": "Ozvi se mu a chvíli poslouchej."
+    "thought": "Když druhý pláče, neodcházej s poučkou o správném úsudku. Epiktétos radí projevit mu soucit a být s ním; zároveň dávej pozor, abys jeho neštěstí nepřijal za vlastní soud o světě.",
+    "question": "Potřebuje někdo tvou přítomnost spíš než výklad?",
+    "step": "Naslouchej bez opravování jeho bolesti."
   },
   {
     "type": "stoic",
     "section": "§ 17",
     "title": "Zahraj svěřenou roli",
-    "thought": "Herec si nevybírá délku hry ani vždy svou roli, ale může ji zahrát dobře. Také ty sis nevybral všechny okolnosti: můžeš být třeba nemocný nebo převzít nečekanou povinnost. Rozhodni se, jak se v téhle situaci zachováš.",
-    "question": "Jakou roli máš dnes před sebou, i když sis ji nevybral?",
+    "thought": "Hru ani délku role sis nevybral. Epiktétos tě vybízí, abys roli, která ti připadla, zahrál co nejlépe. O kvalitě tvého jednání se rozhoduje teď.",
+    "question": "Jakou roli dnes skutečně máš, bez ohledu na své přání?",
     "step": "Udělej v ní jednu věc poctivě."
   },
   {
     "type": "stoic",
     "section": "§ 18",
     "title": "Havran nerozhoduje za tebe",
-    "thought": "Ve starověku lidé četli budoucnost z křiku havrana. Epiktétos říká, že ani nepříznivé znamení za tebe nerozhodne, jestli budeš jednat dobře. Když se dnes něco pokazí, ještě z toho neplyne, že je zkažený celý den.",
-    "question": "Přikládáš nějaké nepříjemnosti větší význam, než má?",
-    "step": "Rozhodni o další odpovědi podle skutečnosti, ne podle znamení."
+    "thought": "Zaskřehotání havrana bylo považováno za špatné znamení. Epiktétos odmítá vydat mu vládu nad svým životem: i z nepříznivé události můžeš udělat příležitost k rozumnému jednání.",
+    "question": "Jakému znamení přisuzuješ větší moc, než má?",
+    "step": "Vrať se od předpovědi k vlastní odpovědi."
   },
   {
     "type": "stoic",
     "section": "§ 19",
     "title": "Do jakého zápasu vstoupíš?",
-    "thought": "Když chceš vyhrát soutěž nebo získat uznání, záleží také na druhých. Můžeš udělat vše poctivě, a přesto nevyhrát. Epiktétos radí hledat vítězství tam, kde opravdu rozhoduješ ty: v tom, jak jednáš.",
-    "question": "V jakém výsledku chceš mít jistotu, kterou ti nikdo nemůže slíbit?",
-    "step": "Soustřeď se na svůj výkon a charakter, ne na umístění."
+    "thought": "Neporazitelný budeš jen v zápase, jehož výsledek je v tvé moci. O postavení, obdiv nebo úřad soupeříš za podmínek, které neřídíš; vlastní poctivé jednání ti nikdo vzít nemůže.",
+    "question": "O jaké vítězství teď usiluješ a kdo určuje výsledek?",
+    "step": "Vyber si měřítko, které stojí na tvém jednání."
   },
   {
     "type": "stoic",
     "section": "§ 20",
     "title": "Pauza před hněvem",
-    "thought": "Někdo tě urazí. Jeho slova jsou skutečná; myšlenka „musím mu to hned vrátit“ je tvoje reakce. Když si dáš chvíli času, můžeš zvolit odpověď, za kterou si budeš stát i zítra.",
-    "question": "Na co chceš právě teď reagovat hned?",
-    "step": "Odlož odpověď o pár minut a pak se rozhodni."
+    "thought": "Urážka nebo útok jsou skutečné události; tvůj soud o nich může hněv ještě rozdmýchat. Epiktétos radí získat čas před reakcí, aby ses nenechal řídit prvním dojmem.",
+    "question": "Co k tomu, co se stalo, přidává tvá mysl?",
+    "step": "Než odpovíš, udělej krátkou pauzu."
   },
   {
     "type": "stoic",
     "section": "§ 21",
     "title": "Vědomí konečnosti",
-    "thought": "Život má konec, i když na to běžně nemyslíme. Připomenutí smrti nemá kazit den; může ti pomoci poznat, že drobná hádka nebo honba za uznáním nestojí za všechen tvůj čas.",
-    "question": "Čemu bys dnes věnoval méně času, kdybys pamatoval na jeho omezenost?",
-    "step": "Vyber jednu důležitější věc pro dnešek."
+    "thought": "Připomínej si smrt a ztrátu, říká Epiktétos, abys nepovažoval dnešní pocty a drobné potíže za celý svět. Konečnost může zpřesnit, čemu věnuješ svůj čas.",
+    "question": "Co by ti dnes připadalo podstatné i při vědomí omezeného času?",
+    "step": "Dej tomu chvíli přednost."
   },
   {
     "type": "stoic",
     "section": "§ 22",
     "title": "Nenech posměch řídit život",
-    "thought": "Když začneš měnit svůj život, lidé se ti mohou smát. Třeba se začteš do filozofie a někdo prohodí, že ze sebe děláš mudrce. Epiktétos radí nesnažit se působit povýšeně, ale také se kvůli posměchu nevzdávat.",
-    "question": "Co děláš podle svého přesvědčení, i když tomu okolí nerozumí?",
-    "step": "Pokračuj bez potřeby to každému dokazovat."
+    "thought": "Kdo začne brát filozofii vážně, může sklidit posměch. Nepředváděj proto nadřazenost a nevzdávej se jen kvůli smíchu; drž se toho, co po rozvaze pokládáš za správné.",
+    "question": "Co děláš z přesvědčení, i když to někdo nechápe?",
+    "step": "Odpověz činem místo obhajoby dojmu."
   },
   {
     "type": "stoic",
     "section": "§ 23",
     "title": "Nepředváděj se",
-    "thought": "Nemusíš na druhé působit jako moudrý člověk. Pokud kvůli jejich obdivu přestaneš jednat tak, jak považuješ za správné, ztratíš to důležité. O tom, jak žiješ, víš nejvíc ty sám.",
-    "question": "Kdy ses naposledy rozhodoval hlavně podle dojmu, který uděláš?",
-    "step": "Zeptej se, co bys udělal bez publika."
+    "thought": "Když kvůli cizímu obdivu přestaneš jednat podle svého přesvědčení, mineš vlastní cíl. Epiktétovi stačí být filozofem v tom, jak žiješ, i když za něj nejsi pokládán.",
+    "question": "Komu se snažíš dokázat, že jsi „ten správný“ člověk?",
+    "step": "Udělej správnou věc i bez publika."
   },
   {
     "type": "stoic",
     "section": "§ 24",
     "title": "Jak být užitečný",
-    "thought": "Můžeš mít pocit, že přátelům nebo společnosti pomůžeš jen s penězi či významnou funkcí. Epiktétos připomíná jinou pomoc: být spolehlivý, čestný a dělat dobře svou práci. Nemusíš kvůli postavení obětovat charakter.",
-    "question": "Jak můžeš být dnes někomu užitečný bez zvláštního vlivu nebo peněz?",
-    "step": "Splň jeden slib nebo nabídni konkrétní pomoc."
+    "thought": "Nemůžeš každému příteli obstarat peníze ani městu postavit lázně. Epiktétos se ptá, zda kvůli pomoci druhým musíš prodat poctivost; věrný a čestný člověk už je pro druhé užitečný.",
+    "question": "Jak můžeš pomoci bez porušení vlastních zásad?",
+    "step": "Nabídni něco, co je skutečně v tvých silách."
   },
   {
     "type": "stoic",
     "section": "§ 25",
     "title": "Za co platíš?",
-    "thought": "Někoho pozvali na důležitou večeři, tebe ne. Možná za to platil časem, lichocením nebo službami, které ty dělat nechceš. Nemůžeš zároveň odmítnout cenu a vyžadovat stejnou výhodu; můžeš ale ocenit, co sis svým rozhodnutím ponechal.",
-    "question": "Co by tě stálo získat výhodu, kterou závidíš druhému?",
-    "step": "Rozhodni, jestli ti za tu cenu opravdu stojí."
+    "thought": "Jiný dostal pozvání či přízeň, protože za ně platil lichocením a obcházením mocných. Chceš-li totéž, zvaž cenu. Pokud ji odmítneš, nepovažuj to automaticky za prohru.",
+    "question": "Co bys musel obětovat za věc, kterou závidíš?",
+    "step": "Pojmenuj, co si chceš uchovat."
   },
   {
     "type": "stoic",
     "section": "§ 26",
     "title": "Stejná skutečnost, jiná bolest",
-    "thought": "Když sousedovi dítě rozbije hrnek, snadno řekneš: „To se stává.“ Když se rozbije tvůj, naštve tě to mnohem víc. Epiktétos vybízí zkusit na vlastní ztrátu použít stejně střízlivý pohled. U velké ztráty to není zákaz truchlit.",
-    "question": "Jak bys mluvil s kamarádem, kterému se stalo totéž co tobě?",
-    "step": "Zkus stejná slova nabídnout i sobě."
+    "thought": "Když se rozbije hrnek sousedovi, snadno řekneš, že se to stává. Když se rozbije tvůj, zní to jinak. Epiktétos tě zve podívat se na vlastní ztrátu se stejnou střízlivostí, jakou máš u cizí; bolest tím nemusíš popírat.",
+    "question": "Jak bys o téže události mluvil, kdyby potkala druhého?",
+    "step": "Zkus použít stejná slova laskavě i k sobě."
   },
   {
     "type": "stoic",
     "section": "§ 27",
     "title": "Terč není kvůli minutí",
-    "thought": "Terč stavíme proto, aby do něj střelec mířil, ne aby schválně minul. Epiktétos tím vyjadřuje svou představu, že zlo není cílem přirozeného řádu. Je to velmi krátká filozofická věta, která spíš otevírá otázku, než aby dávala hotový návod.",
-    "question": "Kde můžeš místo obviňování napravit konkrétní chybu?",
-    "step": "Pojmenuj jednu opravu, kterou můžeš udělat."
+    "thought": "Terč se nestaví proto, aby střelec minul. Epiktétos tím odmítá chápat zlo jako cíl přírody. Jeho věta je krátká a filozofická; pro tebe může být otázkou, jak chybný úsudek napravit.",
+    "question": "Který omyl můžeš opravit místo toho, abys ho prohlásil za osud?",
+    "step": "Zvol malou nápravu."
   },
   {
     "type": "stoic",
     "section": "§ 28",
     "title": "Komu svěřuješ svou mysl?",
-    "thought": "Cizímu kolemjdoucímu bys nenechal rozhodovat o svém těle. Přesto někdy dáš cizí urážce moc nad celým svým dnem. Slova druhého slyšíš, ale jestli se jimi necháš vést, můžeš ještě posoudit sám.",
-    "question": "Čí slova ti dnes zbytečně řídí náladu nebo rozhodnutí?",
-    "step": "Než odpovíš, zeptej se, zda je na nich něco pravdivého."
+    "thought": "Tělo bys náhodnému kolemjdoucímu nevydal. Proč tedy vydat vlastní úsudek každému, kdo tě urazí? Epiktétos tě zve chránit rozhodování před cizí provokací.",
+    "question": "Komu jsi dnes dal rozhodnout o své náladě?",
+    "step": "Získej zpět chvíli před odpovědí."
   },
   {
     "type": "stoic",
     "section": "§ 29",
     "title": "Než začneš, spočítej cenu",
-    "thought": "Než začneš velkou věc, podívej se, co obnáší. Chceš běžet závod? Patří k tomu trénink, omezení i možnost, že nevyhraješ. Když ti za to cíl pořád stojí, pusť se do něj; když ne, můžeš si zvolit jiný bez pocitu selhání.",
-    "question": "Jakou cenu má tvůj nový plán v čase a energii?",
-    "step": "Zapiš si první závazek i jednu věc, které se kvůli němu vzdáš."
+    "thought": "Chceš zvítězit na hrách? Pak počítej s tréninkem, omezeními i možností prohry. Epiktétos varuje před střídáním velkých plánů, jejichž nároky sis nikdy poctivě neprohlédl.",
+    "question": "Co bude tvůj cíl vyžadovat v obyčejném týdnu?",
+    "step": "Rozhodni se až po započtení námahy i odpočinku."
   },
   {
     "type": "stoic",
     "section": "§ 30",
     "title": "Co dlužíš ve vztahu",
-    "thought": "V každém vztahu záleží na tom, jak jednáš ty. Když se bratr zachová nefér, jeho čin za něj nespravíš; pořád ale můžeš mluvit poctivě a stanovit hranici bez odvety. Epiktétos se ptá na tvou úlohu, nikoli na tvou povinnost snášet všechno.",
-    "question": "Jak chceš jednat s někým, kdo se nechoval dobře?",
-    "step": "Promysli jednu spravedlivou odpověď a svou hranici."
+    "thought": "Vztah k bratrovi, rodiči či sousedovi přináší otázku, jak máš jednat ty, i když se druhý chová nefér. Epiktétos zdůrazňuje vlastní spravedlnost; to neznamená snášet ubližování bez hranic.",
+    "question": "Jak chceš jednat fér v jednom náročném vztahu?",
+    "step": "Zvol slušnou odpověď i jasnou hranici."
   },
   {
     "type": "stoic",
     "section": "§ 31",
     "title": "O bozích a zbožnosti",
-    "thought": "Epiktétos tu mluví o bozích a věří, že svět spravují spravedlivě. Proto nechce odvozovat dobro jen z toho, jestli se mu splnilo přání nebo vyhnula ztráta. Hlavní váhu dává vlastnímu jednání. Náboženskou část textu můžeš číst v jejím dobovém kontextu.",
-    "question": "Posuzuješ dobrý den jen podle toho, co se ti přihodilo?",
-    "step": "Přidej k hodnocení i otázku, jak ses zachoval."
+    "thought": "Epiktétos tu mluví o bozích, o spravedlivém řádu světa a o obřadech. Svou zbožnost spojuje s tím, že dobro a zlo hledá hlavně ve vlastním jednání, ne ve štěstí či ztrátě, které ho potkaly.",
+    "question": "Kde dnes zaměňuješ nepříznivý výsledek za důkaz vlastního selhání?",
+    "step": "Posuď své jednání odděleně od výsledku."
   },
   {
     "type": "stoic",
     "section": "§ 32",
     "title": "Věštba neurčuje povinnost",
-    "thought": "Před rozhodnutím můžeš chtít vědět, jak to dopadne. Ani věštec ti však neurčí, co je správné udělat. Když přítel potřebuje pomoc a hrozí riziko, Epiktétos radí rozhodovat podle rozumu a věrnosti, ne podle dobrého znamení.",
-    "question": "Čekáš na jistotu tam, kde už víš, co pokládáš za správné?",
-    "step": "Vyber další rozumný krok i bez záruky výsledku."
+    "thought": "O budoucnosti se můžeš radit, ale věštba ti neřekne, co je správné. Máš-li pomoci příteli v nebezpečí, říká Epiktétos, rozum a věrnost mají přednost i před zlým znamením.",
+    "question": "Odkládáš správný krok, protože chceš znát výsledek předem?",
+    "step": "Rozhodni o povinnosti podle zásad, ne podle předpovědi."
   },
   {
     "type": "stoic",
     "section": "§ 33",
     "title": "Zvol si způsob života",
-    "thought": "Předem si ujasni, jakým člověkem chceš být, a podle toho mluv a jednej ve společnosti i o samotě. Epiktétos v tomto oddílu radí mluvit věcně, nešířit drby a držet míru v jídle či zábavě. Nemusíš přebírat každý dobový zákaz, abys viděl hlavní myšlenku: nenech dav řídit své chování.",
-    "question": "Kdy se necháš strhnout skupinou k něčemu, co nechceš dělat?",
-    "step": "Připrav si jednu větu, kterou se v takové chvíli zastavíš."
+    "thought": "Epiktétos vypočítává pravidla pro řeč, společnost i míru v jídle. Jádro je jednoduché: jednej podobně o samotě i mezi lidmi, nemluv zbytečně o druhých a nenech se bezmyšlenkovitě strhnout okolím.",
+    "question": "Jak chceš jednat, až se příště přidá dav?",
+    "step": "Vyber si jednu zásadu pro dnešní setkání."
   },
   {
     "type": "stoic",
     "section": "§ 34",
     "title": "Odlož rychlé potěšení na chvíli",
-    "thought": "Něco tě láká, třeba další hodina hraní, i když už chceš spát. Před rozhodnutím si představ nejen potěšení během hry, ale i své ráno po ní. Pak si můžeš zahrát, nebo skončit: důležité je vybrat vědomě, ne se nechat unést.",
-    "question": "Jak budeš dnešní příjemnou volbu hodnotit zítra?",
-    "step": "Dej si krátkou pauzu a teprve pak rozhodni."
+    "thought": "Láká tě příjemná věc? Nejdřív si dej čas a představ si chvíli užívání i to, jak ji budeš hodnotit potom. Epiktétos nepopírá, že potěšení láká; ptá se, zda je dobré právě teď.",
+    "question": "Co ti dnešní volba dá teď a co po ní zůstane?",
+    "step": "Rozhodni se po krátké pauze, ne z prvního popudu."
   },
   {
     "type": "stoic",
     "section": "§ 35",
     "title": "Neschovávej správný čin",
-    "thought": "Když jsi po rozvaze udělal správnou věc, nemusíš ji skrývat jen kvůli tomu, že ji někdo nepochopí. Pokud sis ale jistý není, oprav samotný čin. Správnost neurčuje potlesk ani hezké vysvětlení.",
-    "question": "Který svůj krok chceš dnes obhájit před vlastním svědomím?",
-    "step": "Prověř čin, ne jen to, jak vypadá navenek."
+    "thought": "Když jsi po rozvaze udělal to, co pokládáš za správné, nestyď se jen proto, že to někdo špatně pochopí. Pokud čin správný není, změň čin, ne jen jeho veřejný obraz.",
+    "question": "Za kterým poctivým činem dnes stojíš?",
+    "step": "Vrať se k důvodu, proč jsi ho zvolil."
   },
   {
     "type": "stoic",
     "section": "§ 36",
     "title": "U stolu nejsi sám",
-    "thought": "Na společné večeři můžeš chtít největší porci. Jenže u stolu nejsi sám: záleží i na hostiteli a ostatních. To, co je výhodné pro tebe, nemusí být dobré pro společné chvíle.",
-    "question": "Kde se dnes rozhoduješ mezi vlastní výhodou a ohledem na druhé?",
-    "step": "Udělej prostor někomu dalšímu."
+    "thought": "Největší porce může být lákavá pro tvé tělo, ale u společného stolu má cenu i ohled na hostitele a ostatní. Epiktétos připomíná, že výhoda pro tebe není jediné měřítko.",
+    "question": "Čí potřeba vedle tvé patří do rozhodnutí?",
+    "step": "Přidej do úvahy ohled na druhého."
   },
   {
     "type": "stoic",
     "section": "§ 37",
     "title": "Role podle sil",
-    "thought": "Když si vezmeš na starost něco, na co teď nemáš sílu ani čas, můžeš zanedbat i to, co bys zvládl dobře. Přijmout menší úkol není ostuda. Epiktétos radí poctivě posoudit vlastní možnosti dřív, než slíbíš víc.",
-    "question": "Na co teď možná kýváš nad své možnosti?",
-    "step": "Uprav slib tak, aby byl splnitelný."
+    "thought": "Vezmeš-li na sebe úlohu, kterou teď neuneseš, můžeš selhat v ní i zanedbat tu, kterou bys zvládl dobře. Epiktétos tě vyzývá znát vlastní možnosti před slibem.",
+    "question": "Kde sis naložil více, než můžeš poctivě udělat?",
+    "step": "Uprav závazek na uskutečnitelnou podobu."
   },
   {
     "type": "stoic",
     "section": "§ 38",
     "title": "Chraň řídící část mysli",
-    "thought": "Při chůzi se díváš, abys nešlápl na hřebík. Podobně si všímej myšlenek, které předcházejí činu: třeba „on to udělal naschvál“. Jeden ukvapený soud může poškodit rozhovor víc než původní nepříjemnost.",
-    "question": "Kde tě dnes může svést první dojem?",
-    "step": "Před reakcí si ověř, co víš jistě."
+    "thought": "Na cestě dáváš pozor na hřebík pod nohou. Stejně pečlivě hlídej úsudek, s nímž vstupuješ do jednání, radí Epiktétos; právě tam se můžeš nechat zranit ukvapeností.",
+    "question": "Jaký úsudek tě dnes vede?",
+    "step": "Před jednáním ho krátce prověř."
   },
   {
     "type": "stoic",
     "section": "§ 39",
     "title": "Bota má padnout noze",
-    "thought": "Bota má sedět na noze. Když ji vybíráš jen proto, aby byla stále zdobnější, snadno zapomeneš, k čemu slouží. Epiktétos stejným způsobem mluví o majetku: urči si, co opravdu potřebuješ, jinak může chtění růst bez konce.",
-    "question": "Co kupuješ nebo sháníš hlavně kvůli dojmu?",
-    "step": "Zeptej se, k čemu ti to bude sloužit."
+    "thought": "Bota má sloužit noze, ne honbě za ozdobami. Tak i majetek má mít míru podle skutečné potřeby. Jakmile ji opustíš, může se touha po dalších přídavcích rozjet bez konce.",
+    "question": "Co už má svůj účel, ale dál to vylepšuješ jen pro dojem?",
+    "step": "Urči, co je pro tebe dost."
   },
   {
     "type": "stoic",
     "section": "§ 40",
     "title": "Více než ozdoba",
-    "thought": "Tento oddíl popisuje, jak jsou dívky od mládí hodnoceny podle toho, zda se líbí mužům. Epiktétos je vybízí hledat hodnotu i v chování a charakteru. Jeho dobové řeči o ženách a cudnosti nemusíš přijmout; za povšimnutí stojí tlak okolí, který člověku nabízí jen jednu úzkou roli.",
-    "question": "Kdo nebo co ti dnes podsouvá, podle čeho máš měřit svou hodnotu?",
-    "step": "Pojmenuj jednu vlastnost, na které ti záleží víc než na dojmu."
+    "thought": "Dobový oddíl soudí ženy podle vzhledu a cudnosti. Takové měřítko nemusíš převzít. Text ale ukazuje, jak zúžený pohled okolí může člověka vést k tomu, aby v něm hledal svou hodnotu.",
+    "question": "Koho dnes posuzuješ podle dojmu místo podle jednání?",
+    "step": "Všímej si celé osoby, ne jen její podoby."
   },
   {
     "type": "stoic",
     "section": "§ 41",
     "title": "Tělo není celý úkol",
-    "thought": "Jíst, odpočívat a cvičit je potřebné. Epiktétos varuje před tím, když se z péče o tělo stane jediný obsah dne a na přemýšlení o vlastním jednání nezbyde místo. Tělo si zaslouží péči; rozum také.",
-    "question": "Kolik pozornosti dáváš tělu a kolik svým rozhodnutím?",
-    "step": "Věnuj chvíli jedné věci, kterou chceš dělat lépe jako člověk."
+    "thought": "Epiktétos nekáže zanedbávat jídlo, pití ani cvičení. Varuje před tím, když péče o tělo pohltí všechen čas a úsudek zůstane stranou.",
+    "question": "Čemu dnes věnuješ míru a čemu příliš mnoho?",
+    "step": "Pečuj o tělo a nech prostor i pro přemýšlení."
   },
   {
     "type": "stoic",
     "section": "§ 42",
     "title": "Jedná podle svého zdání",
-    "thought": "Někdo o tobě mluví nehezky, protože si v tu chvíli myslí, že má pravdu nebo že se mu to vyplatí. To jeho chování neomlouvá. Když pochopíš, že jedná ze svého pohledu, můžeš odpovědět pevněji a s menším hněvem.",
-    "question": "Co si asi druhý myslí, že dělá správně?",
-    "step": "Zkus odpovědět na čin bez hádání jeho úmyslů."
+    "thought": "Když ti někdo ubližuje, jedná podle toho, co se jemu jeví správné. To jeho čin neomlouvá; Epiktétos ti nabízí vysvětlení, které může ubrat hněv a pomoci ti odpovědět jasně.",
+    "question": "Co druhý mohl mylně pokládat za správné?",
+    "step": "Rozliš jeho omyl a vlastní hranici."
   },
   {
     "type": "stoic",
     "section": "§ 43",
     "title": "Dvě držadla",
-    "thought": "Když se k tobě bratr zachová nefér, můžeš vidět jen křivdu, nebo si připomenout i váš společný vztah. Epiktétos tomu říká dvě držadla jedné věci. Druhý pohled nemusí zrušit hranice, ale může ti pomoct mluvit s ním bez zbytečné války.",
-    "question": "Jaký jiný pravdivý pohled ti pomůže unést dnešní neshodu?",
-    "step": "Zkus ho vyslovit, než se rozhodneš reagovat."
+    "thought": "Když se k tobě bratr zachová nespravedlivě, můžeš se držet jen křivdy, nebo si připomenout i společný vztah. Epiktétos nazývá tyto pohledy dvěma držadly; vyber to, s nímž situaci uneseš a můžeš jednat.",
+    "question": "Které držadlo teď svíráš?",
+    "step": "Pojmenuj vztah i křivdu a zvol odpověď."
   },
   {
     "type": "stoic",
     "section": "§ 44",
     "title": "Mít víc není být víc",
-    "thought": "Kdo má víc peněz, má víc peněz. Kdo lépe řeční, umí lépe řečnit. Ani z jednoho neplyne, že je lepším člověkem. Epiktétos tě vybízí nepřevádět majetek nebo jednu dovednost na celkovou hodnotu osoby.",
-    "question": "S kým se srovnáváš podle jediné věci?",
-    "step": "Popiš ji přesně, bez závěru o hodnotě člověka."
+    "thought": "Má-li někdo více peněz, má více majetku. Mluví-li lépe, má lepší řečnickou dovednost. Ani jedno logicky nedokazuje, že je hodnotnějším člověkem.",
+    "question": "Kde zaměňuješ schopnost či majetek za hodnotu osoby?",
+    "step": "Popiš konkrétní vlastnost bez žebříčku lidí."
   },
   {
     "type": "stoic",
     "section": "§ 45",
     "title": "Řekni, co jsi viděl",
-    "thought": "Vidíš člověka, který rychle odchází z koupelny, nebo vypije mnoho vína. To můžeš popsat. Nevíš ale ještě dost, abys z toho rozhodl, jaký je člověk nebo proč to dělá. Epiktétos radí držet pozorování odděleně od soudu.",
-    "question": "Co jsi u někoho opravdu viděl a co už sis domyslel?",
-    "step": "Řekni nejprve jen to, co můžeš doložit."
+    "thought": "Někdo se koupe rychle nebo pije mnoho vína. To je pozorování; soud o jeho povaze už vyžaduje znalost důvodů, kterou nemáš. Epiktétos tě učí nepřeskakovat od vjemu k rozsudku.",
+    "question": "Co opravdu víš o jednání druhého?",
+    "step": "Popiš čin dřív, než vyslovíš soud."
   },
   {
     "type": "stoic",
     "section": "§ 46",
     "title": "Mluv činem",
-    "thought": "Nemusíš všem vyprávět, že žiješ podle filozofie. Když chceš být střídmý u jídla, ukaž to tím, jak jíš, místo přednášky o střídmosti. Pro Epiktéta má poznání cenu ve chvíli, kdy se projeví v činu.",
-    "question": "O které zásadě víc mluvíš, než ji děláš?",
-    "step": "Dnes ji jednou tiše použij."
+    "thought": "Nevyhlašuj každému své filozofické zásady. U stolu ukaž střídmost svým chováním, ne přednáškou; jako ovce neukazuje trávu, ale dává vlnu, má i myšlenka přinést výsledek.",
+    "question": "O které zásadě raději mluvíš, než ji žiješ?",
+    "step": "Ukaž ji v jednom nenápadném činu."
   },
   {
     "type": "stoic",
     "section": "§ 47",
     "title": "Nechlub se střídmostí",
-    "thought": "Když se naučíš vystačit s málem, není třeba se tím chlubit. Pít vodu místo vína může být tvoje dobrá volba, ale nemusí z ní být soutěž s ostatními. Cvič se kvůli sobě, ne kvůli uznání.",
-    "question": "Děláš něco dobrého hlavně proto, aby si toho někdo všiml?",
-    "step": "Nech si jeden malý pokrok pro sebe."
+    "thought": "Naučil ses žít skromně? Nedělej z toho soutěž ani veřejnou zásluhu. Epiktétos doporučuje cvičit se kvůli vlastnímu charakteru a bez velkých gest.",
+    "question": "Co dobrého děláš hlavně kvůli uznání?",
+    "step": "Zkus to jednou bez oznámení ostatním."
   },
   {
     "type": "stoic",
     "section": "§ 48",
     "title": "Sleduj vlastní úsudek",
-    "thought": "Když se nedaří, je snadné vidět příčinu jen venku. Epiktétos vybízí zkoumat také vlastní úsudek a reakci: co sis myslel a co jsi udělal? To neznamená brát na sebe vinu za cizí čin; znamená to hledat svůj další krok.",
-    "question": "Co můžeš ve své reakci změnit, i když okolnosti nezměníš?",
-    "step": "Pojmenuj jednu věc, která je opravdu tvoje."
+    "thought": "Začátečník hledá zdroj každé újmy venku; pokročilý zkoumá, jak s událostmi nakládá sám. Epiktétos popisuje náročný ideál sebezkoumání, ne povinnost přebírat vinu za cizí činy.",
+    "question": "Co můžeš změnit na vlastní odpovědi, aniž bys omlouval druhé?",
+    "step": "Vrať se ke svému dílu odpovědnosti."
   },
   {
     "type": "stoic",
     "section": "§ 49",
     "title": "Výklad není čin",
-    "thought": "Přečetl jsi složitou knihu a dovedeš ji vysvětlit. To je dovednost, ale samo o sobě to ještě neříká, jak žiješ. Epiktétos se ptá, zda se myšlenka projevila třeba v tom, jak jednáš s lidmi.",
-    "question": "Kterou myšlenku umíš vysvětlit, ale chceš ji teprve zkusit v praxi?",
-    "step": "Vyber jeden konkrétní čin, na kterém ji poznáš."
+    "thought": "Rozumět obtížnému spisu a umět jej vyložit je užitečné. Epiktétos se však ptá, zda podle něj také jednáš; pouhá učenost o dobrém životě ještě není dobrý život.",
+    "question": "Které myšlence rozumíš, ale nežiješ ji?",
+    "step": "Vyzkoušej ji v jedné situaci."
   },
   {
     "type": "stoic",
     "section": "§ 50",
     "title": "Nečekej na ideální den",
-    "thought": "Už víš, podle jakých zásad chceš žít, ale pořád čekáš na vhodnější chvíli. Epiktétos říká: začni v dnešním rozhodnutí, i když ještě nejsi dokonalý. Na příští pondělí nemusíš čekat.",
-    "question": "Co důležitého odkládáš jen proto, že se ještě necítíš připravený?",
-    "step": "Udělej první malou část dnes."
+    "thought": "Zásady, které jsi přijal, nemusejí čekat na lepší týden ani dalšího učitele. Epiktétos naléhá: začni je brát vážně právě v dnešních volbách, i když se teprve učíš.",
+    "question": "Jaký krok podle svého přesvědčení odkládáš?",
+    "step": "Udělej dnes jeho malou verzi."
   },
   {
     "type": "stoic",
     "section": "§ 51",
     "title": "Nejdřív žij pravdivě",
-    "thought": "Můžeš výborně vysvětlit, proč se nemá lhát, a přitom sám lhát. Epiktétos proto řadí čin před vysvětlení a logické důkazy. Filozofie začíná tím, jak jednáš, ne tím, kolik pouček znáš.",
-    "question": "Kterou svou zásadu chceš dnes převést do činu?",
-    "step": "Použij ji v jedné konkrétní situaci."
+    "thought": "Můžeš dlouho dokazovat, proč se nemá lhát, a přitom lhát. Epiktétos řadí praktické jednání před výklady a logické důkazy: filozofie začíná tím, co děláš.",
+    "question": "Kde máš dobrou teorii, ale jinou praxi?",
+    "step": "Zvol jeden čin v souladu s tím, co říkáš."
   },
   {
     "type": "buddhist",
     "section": "SN 36.6",
     "title": "Dva šípy",
-    "thought": "První šíp je bolest, která tě zasáhne: třeba nemoc nebo zklamání. Druhý může přijít, když k ní v hlavě přidáš „tohle už nikdy nezvládnu“ a znovu se tím trápíš. Bolest není tvoje vina; můžeš si ale všimnout, co k ní přidávají další myšlenky.",
-    "question": "Co tě skutečně bolí a jaký příběh k tomu přidáváš?",
-    "step": "Zkus na chvíli popsat jen samotný pocit.",
+    "thought": "Bolest je první šíp. Když k ní přidáš odpor a úzkostné příběhy, může přijít druhý. Není to výčitka za to, že trpíš; učíš se rozeznat bolest od toho, co k ní mysl přidává.",
+    "question": "Co tě skutečně bolí a co o tom teď vypráví tvá mysl?",
+    "step": "Na chvíli odděl tělesný pocit od svého příběhu.",
     "sourceUrl": "https://www.dhammatalks.org/suttas/SN/SN36_6.html"
   },
   {
     "type": "buddhist",
     "section": "SN 36.6",
     "title": "Úleva a nepříjemný pocit",
-    "thought": "Když je ti nepříjemně, můžeš chtít pocit hned zahnat čímkoli, co přinese úlevu. Buddhistický text vybízí nejdřív si všimnout, jak pocit vzniká a mění se. Někdy pak snáz vybereš, co opravdu potřebuješ, místo automatické reakce.",
-    "question": "Po jaké rychlé úlevě saháš, když je ti těžko?",
-    "step": "Dej si jednu chvíli na pozorování pocitu před volbou.",
+    "thought": "Při nepříjemném pocitu můžeš automaticky hledat okamžitou úlevu. Podobenství o šípech vybízí poznat vznik a odeznění pocitu dřív, než tě strhne odpor nebo honba za příjemným.",
+    "question": "Po čem teď saháš jen proto, abys nemusel cítit nepohodlí?",
+    "step": "Dej si chvíli na pozorování, pak se svobodně rozhodni.",
     "sourceUrl": "https://www.dhammatalks.org/suttas/SN/SN36_6.html"
   },
   {
     "type": "buddhist",
     "section": "Dhammapada 277",
     "title": "Co vzniká, proměňuje se",
-    "thought": "Příjemný večer skončí a těžké období se také mění. Buddhistická myšlenka pomíjivosti připomíná, že věci nezůstávají stejné. Nemusíš se kvůli tomu přestat radovat; můžeš si chvíle všímat, dokud trvá.",
-    "question": "Co se v tvém životě mění, i když bys to rád udržel stejné?",
-    "step": "Všimni si jedné dobré chvíle právě teď.",
+    "thought": "To, co vzniklo díky podmínkám, nezůstává beze změny. Všimni si pomíjivosti dobré chvíle i náročného období; není třeba jim slibovat věčnost.",
+    "question": "Co se ve tvém životě právě mění?",
+    "step": "Popiš změnu bez spěchu ji zastavit.",
     "sourceUrl": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.than.html"
   },
   {
     "type": "buddhist",
     "section": "Dhammapada 278",
     "title": "Proměnlivé není pevná opora",
-    "thought": "Povýšení, nový telefon nebo pěkný výlet mohou potěšit. Protože se však pocity i okolnosti mění, žádná z těchto věcí sama nezajistí trvalou spokojenost. Užij si je, ale nežádej po jedné události, aby vyřešila celý život.",
-    "question": "Od čeho čekáš víc, než ti to může dlouhodobě dát?",
-    "step": "Oceň jednu dobrou věc bez očekávání, že vydrží všechno spravit.",
+    "thought": "Proměnlivé věci samy nezajistí trvalé uspokojení. To neznamená zakázat si radost; spíš po příjemné chvíli nežádej, aby vyřešila všechnu nespokojenost.",
+    "question": "Od čeho dnes čekáš více, než ti to může dát?",
+    "step": "Užij si to přiměřeně, bez nároku na trvalý účinek.",
     "sourceUrl": "https://www.accesstoinsight.org/tipitaka/kn/dhp/dhp.20.than.html"
   },
   {
     "type": "buddhist",
     "section": "SN 56.11",
     "title": "Kde se drží trápení",
-    "thought": "Trápení někdy zesílí tím, jak pevně se držíš přání: aby příjemná chvíle neskončila nebo nepříjemná okamžitě zmizela. Buddhistický text tomu říká žíznivá touha. Všimnout si jí neznamená přestat něco chtít; znamená poznat, kdy tě lpění zatěžuje.",
-    "question": "Na čem teď trváš tak silně, že ti to přidává bolest?",
-    "step": "Pojmenuj přání a zkus trochu povolit svůj požadavek na výsledek.",
+    "thought": "Učení o strasti hledá jednu z jejích příčin v žíznivé touze: aby příjemné nikdy neskončilo a nepříjemné ihned zmizelo. Všímej si, kde takové lpění přidává tíhu.",
+    "question": "Na čem právě trváš za každou cenu?",
+    "step": "Pojmenuj přání a na chvíli povol jeho sevření.",
     "sourceUrl": "https://suttafriends.org/sutta/sn56-11/"
   },
   {
     "type": "buddhist",
     "section": "SN 56.11",
     "title": "Střední cesta",
-    "thought": "Buddha v tomto textu odmítá dva extrémy: honit jedno potěšení za druhým a naopak se zbytečně trápit tvrdým odříkáním. Střední cesta je způsob života, který zahrnuje jednání, řeč i pozornost. Neznamená automaticky vybrat napůl mezi každými dvěma možnostmi.",
-    "question": "Kde se pohybuješ mezi přeháněním a přísností k sobě?",
-    "step": "Zkus jednu volbu, která je rozumná a udržitelná.",
+    "thought": "V tomto textu Buddha odmítá jak bezbřehé oddávání se požitkům, tak sebetýrání. Střední cesta zde znamená celý způsob jednání, řeči a pozornosti, ne jen pohodlný kompromis.",
+    "question": "Kde tě teď táhne jeden ze dvou extrémů?",
+    "step": "Vyber krok, který ti umožní jednat s rozvahou.",
     "sourceUrl": "https://suttafriends.org/sutta/sn56-11/"
-  }
-];
-window.ADDITIONAL_WISDOM = [
-  {
-    "type": "stoic",
-    "section": "II.1",
-    "sourceLabel": "Marcus Aurelius · Hovory k sobě II.1",
-    "title": "Předem počítej s obtížným jednáním",
-    "thought": "Ráno si můžeš připomenout, že někdo dnes bude protivný nebo nefér. Nepředvídáš konkrétního člověka; připravuješ si vlastní odpověď. I s nepříjemným kolegou sdílíš schopnost jednat rozumně.",
-    "question": "Jak chceš odpovědět, až se někdo zachová nepříjemně?",
-    "step": "Připrav si jednu klidnou větu, kterou můžeš použít.",
-    "sourceUrl": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus/Book_2"
-  },
-  {
-    "type": "stoic",
-    "section": "IV.3",
-    "sourceLabel": "Marcus Aurelius · Hovory k sobě IV.3",
-    "title": "Krátký návrat k sobě",
-    "thought": "Když je kolem hluk a tlak, nemusíš vždy odjíždět pryč. Na chvíli se zastav, zkontroluj vlastní úsudek a vrať se k tomu, co je právě třeba udělat.",
-    "question": "Co ti teď nejvíc zaměstnává mysl?",
-    "step": "Dej si dvě minuty bez obrazovky a pojmenuj další krok.",
-    "sourceUrl": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus/Book_4"
-  },
-  {
-    "type": "stoic",
-    "section": "V.1",
-    "sourceLabel": "Marcus Aurelius · Hovory k sobě V.1",
-    "title": "Proč dnes vstát",
-    "thought": "Odpočinek má své místo. Když ale nastane čas vstát, připomeň si také úkoly a vztahy, kterým chceš věnovat pozornost. Smysl dne nemusí být velkolepý.",
-    "question": "Čemu chceš dnes dát svůj čas?",
-    "step": "Vyber jeden důvod, proč začít den.",
-    "sourceUrl": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus/Book_5"
-  },
-  {
-    "type": "stoic",
-    "section": "V.12",
-    "sourceLabel": "Marcus Aurelius · Hovory k sobě V.12",
-    "title": "Charakter má víc stran",
-    "thought": "Moudrost, spravedlnost, odvaha a uměřenost se ukazují v rozhodnutích. Třeba když pravdivě přiznáš chybu, pomůžeš druhému a nepřepneš vlastní síly.",
-    "question": "Která ctnost se dnes hodí k tvé situaci?",
-    "step": "Vyber jednu a popiš konkrétní jednání.",
-    "sourceUrl": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus/Book_5"
-  },
-  {
-    "type": "stoic",
-    "section": "V.20",
-    "sourceLabel": "Marcus Aurelius · Hovory k sobě V.20",
-    "title": "Překážka může být materiál",
-    "thought": "Plán se může zadrhnout. Nová situace ti ale dává prostor projevit trpělivost, vynalézavost nebo férovost. Překážku nemusíš mít rád, abys na ni dobře odpověděl.",
-    "question": "Co se dnes změnilo oproti plánu?",
-    "step": "Navrhni menší cestu k tomu, na čem ti záleží.",
-    "sourceUrl": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus/Book_5"
-  },
-  {
-    "type": "stoic",
-    "section": "VI.30",
-    "sourceLabel": "Marcus Aurelius · Hovory k sobě VI.30",
-    "title": "Nenech si vzít charakter",
-    "thought": "Když získáš vliv nebo uznání, snadno začneš jednat kvůli dojmu, který děláš. Zkus se k druhým chovat stejně poctivě, i když se na tebe nikdo nedívá.",
-    "question": "Mění se tvoje jednání podle toho, kdo tě sleduje?",
-    "step": "Udělej jednu nenápadnou, ale správnou věc.",
-    "sourceUrl": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus/Book_6"
-  },
-  {
-    "type": "stoic",
-    "section": "VIII.49",
-    "sourceLabel": "Marcus Aurelius · Hovory k sobě VIII.49",
-    "title": "Nejdřív popis, potom závěr",
-    "thought": "Zpráva od kamaráda přišla pozdě. To je fakt. Myšlenka „už o mě nestojí“ je tvůj výklad. Když je oddělíš, můžeš odpovědět bez zbytečného obvinění.",
-    "question": "Jaký závěr jsi dnes vyvodil z mála informací?",
-    "step": "Zapiš fakt a vedle něj svůj předpoklad.",
-    "sourceUrl": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus/Book_8"
-  },
-  {
-    "type": "stoic",
-    "section": "1",
-    "sourceLabel": "Seneca · Listy Luciliovi 1",
-    "title": "Čas, který odevzdáváš",
-    "thought": "Peníze často hlídáme pečlivěji než hodiny. Seneca vybízí všimnout si, komu a čemu svůj čas dáváme. I odpočinek může být dobrá volba, když je opravdu tvoje.",
-    "question": "Kam ti dnes odešel čas bez tvého rozhodnutí?",
-    "step": "Vyber jednu činnost, které chceš věnovat chvíli vědomě.",
-    "sourceUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_1"
-  },
-  {
-    "type": "stoic",
-    "section": "13",
-    "sourceLabel": "Seneca · Listy Luciliovi 13",
-    "title": "Kolik obav se už naplnilo",
-    "thought": "Některé těžké věci přijdou, jiné si dlouho jen představujeme. Nedělej ze své obavy jistotu; podívej se, co víš a na co se můžeš rozumně připravit.",
-    "question": "Co je dnes skutečný problém a co zatím jen možnost?",
-    "step": "Připrav se na jeden pravděpodobný krok, ne na všechny katastrofy.",
-    "sourceUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_13"
-  },
-  {
-    "type": "stoic",
-    "section": "18",
-    "sourceLabel": "Seneca · Listy Luciliovi 18",
-    "title": "Zkus, co doopravdy potřebuješ",
-    "thought": "Dobrovolně jednoduchý den může ukázat, že pohodlí není jedinou podmínkou spokojenosti. Nemusíš se trestat; jde o krátký pokus a o poznání sebe sama.",
-    "question": "Které pohodlí považuješ za nutnost, aniž jsi to zkoušel?",
-    "step": "Zvol malou bezpečnou jednoduchost na jeden den.",
-    "sourceUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_18"
-  },
-  {
-    "type": "stoic",
-    "section": "24",
-    "sourceLabel": "Seneca · Listy Luciliovi 24",
-    "title": "Netrp dopředu ve všech verzích",
-    "thought": "Před těžkým rozhovorem se můžeš v hlavě pohádat desetkrát. Až nastane skutečná chvíle, budeš mít teprve konkrétní věci k řešení.",
-    "question": "Který rozhovor se ti už odehrává v představách?",
-    "step": "Sepiš jednu větu, kterou chceš skutečně říct.",
-    "sourceUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_24"
-  },
-  {
-    "type": "stoic",
-    "section": "104",
-    "sourceLabel": "Seneca · Listy Luciliovi 104",
-    "title": "Vezmi si na cestu i sebe",
-    "thought": "Cestování může přinést radost a nový pohled. Pokud tě ale trápí stejná vnitřní obava, změna místa ji sama nevyřeší. Věnuj jí pozornost i doma.",
-    "question": "Co bys chtěl vyřešit, ať už jsi kdekoli?",
-    "step": "Pojmenuj jeden rozhovor nebo krok, který nemůže udělat cesta za tebe.",
-    "sourceUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_104"
-  },
-  {
-    "type": "stoic",
-    "section": "I.1",
-    "sourceLabel": "Epiktétos · Rozpravy I.1",
-    "title": "Zkoumej, jak věci posuzuješ",
-    "thought": "Můžeš přijít o plán nebo o pohodlí, ale stále máš možnost zkoumat svůj úsudek a volit odpověď. Neznamená to, že okolnosti nebolí; znamená to, že v nich zůstává prostor pro jednání.",
-    "question": "Jaký úsudek tě dnes vede?",
-    "step": "Zeptej se, zda odpovídá tomu, co opravdu víš.",
-    "sourceUrl": "https://en.wikisource.org/wiki/Epictetus,_the_Discourses_as_reported_by_Arrian,_the_Manual,_and_Fragments/Book_1/Chapter_1"
-  },
-  {
-    "type": "stoic",
-    "section": "II.5",
-    "sourceLabel": "Epiktétos · Rozpravy II.5",
-    "title": "Hraj dobře s tím, co přijde",
-    "thought": "Ve hře nevybíráš kostky, které padnou; můžeš ale rozhodnout, jak s nimi zahraješ. Stejně tak neřídíš všechny okolnosti dne, ale můžeš připravit dobrou odpověď.",
-    "question": "Jaké okolnosti ti dnes připadly?",
-    "step": "Vyber další tah, který odpovídá tvým hodnotám.",
-    "sourceUrl": "https://en.wikisource.org/wiki/Epictetus,_the_Discourses_as_reported_by_Arrian,_the_Manual,_and_Fragments/Book_2/Chapter_5"
-  },
-  {
-    "type": "stoic",
-    "section": "IV.1",
-    "sourceLabel": "Epiktétos · Rozpravy IV.1",
-    "title": "Svoboda a přání",
-    "thought": "Když svůj klid postavíš jen na výsledku, který řídí druzí, dáváš jim nad ním moc. Můžeš po výsledku dál usilovat, ale opři svůj den hlavně o to, jak jednáš.",
-    "question": "Na čem dnes závisí tvůj pocit klidu?",
-    "step": "Vrať pozornost k jedné volbě, která je opravdu tvoje.",
-    "sourceUrl": "https://en.wikisource.org/wiki/Epictetus,_the_Discourses_as_reported_by_Arrian,_the_Manual,_and_Fragments/Book_4/Chapter_1"
-  },
-  {
-    "type": "buddhist",
-    "section": "Sn 1.8",
-    "sourceLabel": "Buddhistický text · Sutta Nipáta 1.8",
-    "title": "Přání dobra bez velkého gesta",
-    "thought": "Text o laskavosti vybízí přát druhým bezpečí a dobrý život. V běžném dni se to může projevit i prostě: mluvit s respektem k někomu, s kým nesouhlasíš.",
-    "question": "Komu by dnes pomohla tvoje vstřícnost?",
-    "step": "Napiš zprávu nebo vyslov poděkování bez očekávání odměny.",
-    "sourceUrl": "https://www.dhammatalks.org/suttas/KN/StNp/StNp1_8.html"
-  },
-  {
-    "type": "buddhist",
-    "section": "SN 47.19",
-    "sourceLabel": "Buddhistický text · SN 47.19",
-    "title": "Péče o sebe a druhé",
-    "thought": "Obraz dvou akrobatů ukazuje, že všímavá péče o sebe a trpělivá péče o druhé se mohou podporovat. Nemusíš si vybírat mezi vyčerpáním pro druhé a uzavřením do sebe.",
-    "question": "Co dnes potřebuješ ty a co člověk vedle tebe?",
-    "step": "Vyber jednu drobnou věc pro sebe a jednu laskavou odpověď druhému.",
-    "sourceUrl": "https://www.dhammatalks.org/suttas/SN/SN47_19.html"
-  }
-];
-window.STOIC_PRACTICES = [
-  {
-    "title": "Ráno před lidmi",
-    "when": "Čeká tě práce nebo cesta",
-    "try": "Představ si, že někdo bude netrpělivý. Jak chceš mluvit ty?",
-    "sourceLabel": "Marcus Aurelius · Hovory k sobě II.1",
-    "sourceUrl": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus/Book_2"
-  },
-  {
-    "title": "Fakt a domněnka",
-    "when": "Zpráva tě rozladila",
-    "try": "Napiš jednu větu o tom, co se stalo, a druhou o tom, co si z toho vykládáš.",
-    "sourceLabel": "Marcus Aurelius · Hovory k sobě VIII.49",
-    "sourceUrl": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus/Book_8"
-  },
-  {
-    "title": "Kruh vlivu",
-    "when": "Plán nevyšel",
-    "try": "Napiš, co můžeš udělat teď. Reakci druhého nech zvlášť.",
-    "sourceLabel": "Epiktétos · Enchiridion § 1",
-    "sourceUrl": null
-  },
-  {
-    "title": "Přání bez záruky",
-    "when": "Čekáš odpověď nebo výsledek",
-    "try": "Udělej svůj díl a přiznej si, že výsledek nelze slíbit.",
-    "sourceLabel": "Epiktétos · Enchiridion § 2",
-    "sourceUrl": null
-  },
-  {
-    "title": "Cesta a překážka",
-    "when": "Někdo ti změnil plán",
-    "try": "Zvol jeden menší krok, který je možný i v nových okolnostech.",
-    "sourceLabel": "Marcus Aurelius · Hovory k sobě V.20",
-    "sourceUrl": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus/Book_5"
-  },
-  {
-    "title": "Dvě minuty ticha",
-    "when": "Máš přeplněnou hlavu",
-    "try": "Odlož telefon, posaď se a vrať pozornost k jedné právě proveditelné věci.",
-    "sourceLabel": "Marcus Aurelius · Hovory k sobě IV.3",
-    "sourceUrl": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus/Book_4"
-  },
-  {
-    "title": "Jedno poctivé vysvětlení",
-    "when": "Udělal jsi chybu",
-    "try": "Řekni konkrétně, co se stalo, a co uděláš dál. Bez výmluv i bez sebetrýznění.",
-    "sourceLabel": "Marcus Aurelius · Hovory k sobě V.12",
-    "sourceUrl": "https://en.wikisource.org/wiki/The_Meditations_of_the_Emperor_Marcus_Antoninus/Book_5"
-  },
-  {
-    "title": "Než začneš reagovat",
-    "when": "Někdo tě kritizoval",
-    "try": "Zeptej se, co přesně bylo řečeno. Soud o sobě může počkat.",
-    "sourceLabel": "Epiktétos · Enchiridion § 5",
-    "sourceUrl": null
-  },
-  {
-    "title": "Čas záměrně",
-    "when": "Máš volné odpoledne",
-    "try": "Vyber jednu věc, kterou si opravdu chceš užít; i hraní může být zvolený odpočinek.",
-    "sourceLabel": "Seneca · Listy Luciliovi 1",
-    "sourceUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_1"
-  },
-  {
-    "title": "Obava nebo fakt",
-    "when": "Předem se bojíš",
-    "try": "Sepiš, co už nastalo a čeho se jen obáváš. Připrav se na první konkrétní možnost.",
-    "sourceLabel": "Seneca · Listy Luciliovi 13",
-    "sourceUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_13"
-  },
-  {
-    "title": "Jednoduchý den",
-    "when": "Máš pocit, že potřebuješ mnoho věcí",
-    "try": "Zkus jeden den jednoduché jídlo nebo procházku bez nákupu. Všimni si, co ti skutečně chybí.",
-    "sourceLabel": "Seneca · Listy Luciliovi 18",
-    "sourceUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_18"
-  },
-  {
-    "title": "Těžký rozhovor",
-    "when": "Odkládáš zprávu",
-    "try": "Sepiš první upřímnou a slušnou větu. Můžeš ji použít až budeš připraven.",
-    "sourceLabel": "Seneca · Listy Luciliovi 24",
-    "sourceUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_24"
-  },
-  {
-    "title": "Před sportem",
-    "when": "Měníš plán kvůli únavě",
-    "try": "Zvaž, jaký pohyb je dnes přiměřený. Výkon ani odpočinek nemusíš dokazovat.",
-    "sourceLabel": "Epiktétos · Enchiridion § 4",
-    "sourceUrl": null
-  },
-  {
-    "title": "Na setkání",
-    "when": "Chceš, aby vše proběhlo dokonale",
-    "try": "Jdi s úmyslem být přítomný a férový. Průběh setkání nebude jen tvůj.",
-    "sourceLabel": "Epiktétos · Enchiridion § 15",
-    "sourceUrl": null
-  },
-  {
-    "title": "Při ztrátě",
-    "when": "Něco se rozbilo nebo skončilo",
-    "try": "Připusť, že to bolí. Potom zvaž, co lze opravit a co už patří minulosti.",
-    "sourceLabel": "Epiktétos · Enchiridion § 11",
-    "sourceUrl": null
-  },
-  {
-    "title": "Názor druhých",
-    "when": "Děláš něco hlavně kvůli pochvale",
-    "try": "Zeptej se, zda je činnost užitečná nebo správná i bez potlesku.",
-    "sourceLabel": "Epiktétos · Enchiridion § 25",
-    "sourceUrl": null
-  },
-  {
-    "title": "Cesta domů",
-    "when": "Vracíš se z výletu",
-    "try": "Vezmi si zážitek s sebou. Jednu osobní starost zkus řešit i tam, kde žiješ.",
-    "sourceLabel": "Seneca · Listy Luciliovi 104",
-    "sourceUrl": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_104"
-  },
-  {
-    "title": "Večer bez soudu",
-    "when": "Končí den",
-    "try": "Pojmenuj jednu dobrou volbu, jednu věc k poučení a jeden možný krok pro příště.",
-    "sourceLabel": "Seneca · O hněvu III.36",
-    "sourceUrl": null
   }
 ];
 window.FAVORITE_SECTIONS=[1,2,3,5,7,8,11,14,15,18,25,33,34,42,43,45,46];
@@ -773,4 +473,4 @@ const dailyCycle=[];
 stoicCards.forEach((card,index)=>{dailyCycle.push(card);if([8,17,25,34,42,50].includes(index))dailyCycle.push(buddhistCards.shift())});
 const weighted=[];let favoriteIndex=0;
 dailyCycle.forEach((card,index)=>{weighted.push(card);if(index%3===2&&favoriteIndex<favoriteCards.length)weighted.push(favoriteCards[favoriteIndex++]);if(index===19)weighted.push(window.STOIC_LIBRARY[51]);if(index===39)weighted.push(window.STOIC_LIBRARY[53])});
-window.STOIC_THOUGHTS=[...weighted,...window.ADDITIONAL_WISDOM];
+window.STOIC_THOUGHTS=weighted;
