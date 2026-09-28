@@ -2,6 +2,14 @@
 
 Soukromý deník a jemný průvodce pro týdenní cíle. Stačí statický web, bez účtu, serveru a externích knihoven.
 
+## Co přibylo ve verzi 2
+
+- Denní česká myšlenka, otázka a drobný pokus: **všech 51 oddílů** Epiktétova *Enchiridionu* a poznámek v dodaném PDF je zastoupeno vlastní stručnou parafrází, plus 8 nenáboženských cvičení všímavosti. V denním cyklu se 17 kapitol vybraných uživatelem objevuje častěji; poměr 68 stoických ku 8 všímavým dnům je přibližně 90 % ku 10 %. Celou sbírku lze procházet na úvodní stránce. Myšlenky jsou **autorské parafráze**, nikoli doslovné citáty či úplný překlad knihy.
+- Čtyři stoické ctnosti jsou na úvodní stránce převedeny do běžných otázek: moudrost, spravedlnost, odvaha, uměřenost. Nejsou hodnocené body.
+- V deníku lze označit, zda ses věnoval přírodě, čtení, lidem, pohybu, tvoření nebo odpočinku. Kompas počítá třicetidenní přehled z těchto štítků, jednoduchých zmínek v textu a zapsaných cílů.
+- Pokud je dost zápisů a oblast se v nich dlouho neobjevila, kompas ji může jemně navrhnout. Absence zmínky není důkaz, že se aktivita nestala. Návrhy jsou jednoduchá pravidla, nikoli konverzační umělá inteligence.
+- Starší záznamy ze stejného prohlížeče zůstávají zachované; rozšířený formát zálohy zachovává i nové štítky.
+
 ## Vyzkoušení
 
 V adresáři spusť `python3 -m http.server 8000` a otevři `http://localhost:8000`. Samotný `index.html` lze otevřít i přímo, ale režim offline a instalace na plochu fungují jen přes HTTPS nebo localhost.
@@ -11,6 +19,8 @@ V adresáři spusť `python3 -m http.server 8000` a otevři `http://localhost:80
 Nahraj **obsah této složky** do kořenového adresáře repozitáře. V nastavení repozitáře otevři **Settings → Pages**, vyber publikování z větve `main` a složku `/ (root)`. Pak otevři adresu, kterou GitHub Pages zobrazí. Relativní cesty fungují i při publikování pod názvem repozitáře.
 
 Na mobilu otevři publikovanou adresu a použij nabídku prohlížeče **Přidat na plochu**. Dostupnost instalačního tlačítka závisí na telefonu a prohlížeči. Po první návštěvě přes HTTPS aplikace funguje i bez sítě.
+
+Pokud aktualizuješ už publikovanou verzi, nahraj všechny soubory znovu včetně nového `thoughts.js` a `sw.js`. Po publikování aplikaci zavři a dvakrát obnov, aby se aktivovala nová offline verze. Data prohlížeče nemaž.
 
 ## Data a soukromí
 
