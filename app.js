@@ -19,7 +19,7 @@
   const weekLabel=s=>{const d=dateFromISO(s),end=new Date(d);end.setDate(d.getDate()+6);return `${d.toLocaleDateString('cs-CZ',{day:'numeric',month:'numeric'})}–${end.toLocaleDateString('cs-CZ',{day:'numeric',month:'numeric',year:'numeric'})}`};
   const validDate=s=>/^\d{4}-\d{2}-\d{2}$/.test(s)&&escDate(dateFromISO(s))===s;
   const cleanText=s=>String(s||'').slice(0,5000);
-  const fresh=()=>({version:1,entries:{},goals:[],checks:{},reflections:{},interests:['nature','reading','friends','sport','rest'],suggestions:{},mentorSessions:[],rituals:{}});
+  const fresh=()=>({version:1,entries:{},goals:[],checks:{},reflections:{},interests:['nature','reading','friends','sport','rest'],suggestions:{},mentorSessions:[],rituals:{},xpEvents:{}});
   function normalize(raw){
     if(!raw||raw.version!==1||typeof raw!=='object')throw Error('Neznámý formát zálohy.');
     const data=fresh();
@@ -31,11 +31,12 @@
     if(raw.suggestions&&typeof raw.suggestions==='object'){for(const [id,date] of Object.entries(raw.suggestions))if(INTERESTS.some(x=>x.id===id)&&validDate(date))data.suggestions[id]=date}
     if(Array.isArray(raw.mentorSessions))data.mentorSessions=raw.mentorSessions.slice(-100).filter(s=>s&&validDate(s.date)&&typeof s.situation==='string').map(s=>({id:cleanText(s.id).slice(0,80),date:s.date,situation:cleanText(s.situation),fact:cleanText(s.fact),story:cleanText(s.story),control:cleanText(s.control),outside:cleanText(s.outside),virtue:['wisdom','justice','courage','moderation'].includes(s.virtue)?s.virtue:'wisdom',next:cleanText(s.next)}));
     for(const [date,r] of Object.entries(raw.rituals||{}))if(validDate(date)&&r&&typeof r==='object')data.rituals[date]={morning:{intention:cleanText(r.morning?.intention),obstacle:cleanText(r.morning?.obstacle)},evening:{good:cleanText(r.evening?.good),hard:cleanText(r.evening?.hard),next:cleanText(r.evening?.next)}};
+    for(const [key,event] of Object.entries(raw.xpEvents||{}).slice(0,20000))if(key.length<=180&&event&&Number.isInteger(event.points)&&event.points>=1&&event.points<=20&&validDate(event.date))data.xpEvents[key]={points:event.points,date:event.date};
     return data;
   }
   let data;try{data=normalize(JSON.parse(localStorage.getItem(KEY)))}catch{data=fresh()}
   const status=message=>{$('status').textContent=message;clearTimeout(status.timer);status.timer=setTimeout(()=>$('status').textContent='',6000)};
-  const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(data));return true}catch{status('Uložení se nepovedlo. Stáhni si zálohu a zkontroluj volné místo v prohlížeči.');return false}};
+  const save=()=>{try{syncXp();localStorage.setItem(KEY,JSON.stringify(data));renderJourney();return true}catch{status('Uložení se nepovedlo. Stáhni si zálohu a zkontroluj volné místo v prohlížeči.');return false}};
   const node=(tag,cls,content)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(content!=null)el.textContent=content;return el};
   const blank=(container,message)=>container.append(node('p','muted',message));
   function showView(id){document.querySelectorAll('.view').forEach(el=>el.classList.toggle('active',el.id===id));document.querySelectorAll('[data-view]').forEach(el=>{el.classList.toggle('active',el.dataset.view===id);if(el.dataset.view===id)el.setAttribute('aria-current','page');else el.removeAttribute('aria-current')});window.scrollTo({top:0,behavior:'smooth'})}
@@ -55,6 +56,28 @@
   let currentSuggestion=null,seen=[];
   const dayNumber=date=>{const [y,m,d]=date.split('-').map(Number);return Math.floor(Date.UTC(y,m-1,d)/86400000)};
   const daysSince=date=>dayNumber(today())-dayNumber(date);
+  const hasWords=values=>values.some(value=>typeof value==='string'&&value.trim());
+  const levelThreshold=level=>{const n=level-1;return 60*n+6*n*n};
+  const LEVEL_NAMES=[[100,'Celoživotní praktik'],[75,'Průvodce'],[50,'Zkušený stoik'],[35,'Cvičitel úsudku'],[20,'Vytrvalý praktik'],[10,'Začínající stoik'],[5,'Učeň'],[1,'Pozorovatel']];
+  function activeDates(){const dates=new Set(),mark=date=>{if(validDate(date)&&date<=today())dates.add(date)};
+    for(const [date,e] of Object.entries(data.entries))if(hasWords([e.good,e.learned,e.note])||e.activities?.length)mark(date);
+    for(const goal of data.goals)for(const date of data.checks[goal.id]||[])mark(date);
+    for(const session of data.mentorSessions)if(session.situation.trim())mark(session.date);
+    for(const [date,r] of Object.entries(data.rituals))if(hasWords([r.morning?.intention,r.morning?.obstacle,r.evening?.good,r.evening?.hard,r.evening?.next]))mark(date);
+    return [...dates].sort();
+  }
+  function syncXp(){const events=data.xpEvents,add=(key,date,points)=>{if(date<=today()&&!Object.hasOwn(events,key)&&Object.keys(events).length<20000)events[key]={date,points}};
+    for(const [date,e] of Object.entries(data.entries))if(hasWords([e.good,e.learned,e.note])||e.activities?.length)add(`journal:${date}`,date,8);
+    const goalCounts={};for(const event of Object.values(events))if(event.points===7)goalCounts[event.date]=(goalCounts[event.date]||0)+1;
+    for(const goal of data.goals)for(const date of [...(data.checks[goal.id]||[])].sort()){const key=`goal:${goal.id}:${date}`;if(!Object.hasOwn(events,key)&&(goalCounts[date]||0)<2&&date<=today()){add(key,date,7);goalCounts[date]=(goalCounts[date]||0)+1}}
+    for(const session of data.mentorSessions)if(session.situation.trim())add(`mentor:${session.date}`,session.date,8);
+    for(const [date,r] of Object.entries(data.rituals)){if(hasWords([r.morning?.intention,r.morning?.obstacle]))add(`morning:${date}`,date,2);if(hasWords([r.evening?.good,r.evening?.hard,r.evening?.next]))add(`evening:${date}`,date,3)}
+    for(const [week,r] of Object.entries(data.reflections))if(hasWords([r.good,r.control,r.next]))add(`reflection:${week}`,week,12);
+    const dates=activeDates();for(let i=1;i<dates.length;i++)if(dayNumber(dates[i])-dayNumber(dates[i-1])>=7)add(`return:${dates[i]}`,dates[i],10);
+  }
+  function renderJourney(){const total=Object.values(data.xpEvents).reduce((sum,event)=>sum+event.points,0);let level=1;while(levelThreshold(level+1)<=total)level++;const start=levelThreshold(level),end=levelThreshold(level+1),title=LEVEL_NAMES.find(([min])=>level>=min)[1];$('journey-title').textContent=`Úroveň ${level} · ${title}`;$('journey-total').textContent=`${total} XP`;$('journey-next').textContent=`Do další úrovně ${end-total} XP`;$('journey-bar').style.width=`${Math.round((total-start)/(end-start)*100)}%`;
+    const recent=activeDates().filter(date=>daysSince(date)<28).length;$('journey-rhythm').textContent=`Posledních 28 dní: ${recent} ${recent===1?'den':'dní'} s vlastním krokem`;$('journey-return').textContent=recent?'Každý návrat se počítá.':'Můžeš se vrátit kdykoli.';
+  }
   function relevantDates(interest){const dates=new Set();for(const [date,e] of Object.entries(data.entries)){const text=[e.good,e.learned,e.note].join(' ');if(e.activities?.includes(interest.id)||WORDS[interest.id].test(text))dates.add(date)}for(const goal of data.goals)if(WORDS[interest.id].test(goal.name))for(const date of data.checks[goal.id]||[])dates.add(date);return [...dates].filter(date=>date<=today()).sort().reverse()}
   function renderBalance(){const holder=$('balance-list');holder.replaceChildren();const logged=Object.keys(data.entries).filter(date=>date<=today()&&daysSince(date)<30).length;if(!logged)return blank(holder,'Zatím není z čeho vycházet. Začni pár zápisy nebo označ aktivitu v deníku.');for(const interest of INTERESTS){const count=relevantDates(interest).filter(date=>daysSince(date)<30).length;const row=node('div','balance-row');row.append(node('strong','',interest.name),node('span','muted',count?`${count} ${count===1?'den':'dní'} v záznamech`:'Bez zmínky v záznamech'));holder.append(row)}holder.append(node('small','muted',`Zapsaných dní v období: ${logged}. Přehled měří jen záznamy, nikoli celý tvůj život.`))}
   function suggestion(){let pool=INTERESTS.filter(x=>data.interests.includes(x.id));if(!pool.length)pool=INTERESTS.filter(x=>x.id==='rest');const energy=document.querySelector('input[name=energy]:checked')?.value||'medium';const history=Object.keys(data.entries).filter(date=>date<=today()&&daysSince(date)<30).length;const ranked=pool.map(x=>{const last=relevantDates(x)[0],recent=data.suggestions[x.id],score=(last?Math.min(32,daysSince(last)):history>=4?32:10)+(energy==='low'?(x.low?12:-12):energy==='high'?(x.low?0:5):0)+(recent&&daysSince(recent)<7?-18:0);return {...x,last,score}}).sort((a,b)=>b.score-a.score);let pick=ranked.find(x=>!seen.includes(x.id));if(!pick){seen=[];pick=ranked[0]}seen.push(pick.id);currentSuggestion=pick;$('suggestion-kind').textContent=pick.kind;$('suggestion-title').textContent=pick.title;const gap=pick.last?daysSince(pick.last):null;$('suggestion-reason').textContent=gap!=null&&gap>=14?`Oblast „${pick.name.toLowerCase()}“ se v záznamech ${gap} dní neobjevila. Pokud máš chuť, můžeš se k ní vrátit.`:gap==null&&history>=4?`Oblast „${pick.name.toLowerCase()}“ se v zápiscích za posledních 30 dní neobjevila. To neznamená, že ses jí nevěnoval; třeba je to jen dobrý tip.`:'Návrh podle toho, co tě zajímá a kolik máš dnes energie. Klidně si vyber jinak.';$('suggestion-step').textContent=`První krok: ${pick.step}`;$('suggestion-feedback').textContent='';$('suggestion-card').hidden=false}
@@ -79,9 +102,9 @@
   function loadReflection(){const r=data.reflections[weekStart()]||{};$('reflection-week').textContent=`Týden ${weekLabel(weekStart())}`;$('reflect-good').value=r.good||'';$('reflect-control').value=r.control||'';$('reflect-next').value=r.next||''}
   $('reflection-form').addEventListener('submit',event=>{event.preventDefault();const r={good:$('reflect-good').value.trim(),control:$('reflect-control').value.trim(),next:$('reflect-next').value.trim()};if(!Object.values(r).some(Boolean))return status('Stačí jedna věta, ale napiš ji před uložením.');data.reflections[weekStart()]=r;if(save()){status('Ohlédnutí uloženo.');renderReflections()}});
   function renderReflections(){const container=$('reflection-list');container.replaceChildren();const weeks=Object.keys(data.reflections).sort().reverse();if(!weeks.length)return blank(container,'Zatím žádné ohlédnutí. Můžeš začít klidně uprostřed týdne.');for(const week of weeks.slice(0,15)){const r=data.reflections[week],item=node('article','reflection-item');item.append(node('h4','',weekLabel(week)));for(const [label,key] of [['Povedlo se','good'],['V mých silách','control'],['Další krok','next']])if(r[key])item.append(node('p','',`${label}: ${r[key]}`));container.append(item)}}
-  function render(){renderEntries();renderGoals();renderInterests();renderReflections();renderBalance();renderThought();renderHomePrompt();renderMentorHistory();renderHomeMentor()}
+  function render(){renderEntries();renderGoals();renderInterests();renderReflections();renderBalance();renderThought();renderHomePrompt();renderMentorHistory();renderHomeMentor();renderJourney()}
   $('export-button').addEventListener('click',()=>{const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`stoicky-kompas-zaloha-${today()}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);status('Záloha se stahuje.')});
   $('import-file').addEventListener('change',async event=>{const file=event.target.files?.[0];if(!file)return;try{if(file.size>5_000_000)throw Error('Soubor je příliš velký.');const next=normalize(JSON.parse(await file.text()));if(!confirm('Načtení zálohy nahradí současné záznamy v tomto prohlížeči. Pokračovat?'))return;data=next;if(save()){loadEntry();loadReflection();loadRituals();$('mentor-result').hidden=true;render();status('Záloha načtena.')}}catch(err){status(`Zálohu se nepovedlo načíst: ${err.message}`)}finally{event.target.value=''}});
-  loadEntry();loadReflection();loadRituals();render();
+  loadEntry();loadReflection();loadRituals();save();render();
   if('serviceWorker'in navigator&&location.protocol!=='file:')window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 })();
