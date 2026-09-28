@@ -6,6 +6,7 @@ Soukromý deník a jemný průvodce pro týdenní cíle. Stačí statický web, 
 
 - Denní česká myšlenka, otázka a drobný pokus: **všech 51 oddílů** Epiktétova *Enchiridionu* a poznámek v dodaném PDF je zastoupeno vlastní stručnou parafrází, plus 8 nenáboženských cvičení všímavosti. V denním cyklu se 17 kapitol vybraných uživatelem objevuje častěji; poměr 68 stoických ku 8 všímavým dnům je přibližně 90 % ku 10 %. Celou sbírku lze procházet na úvodní stránce. Myšlenky jsou **autorské parafráze**, nikoli doslovné citáty či úplný překlad knihy.
 - Čtyři stoické ctnosti jsou na úvodní stránce převedeny do běžných otázek: moudrost, spravedlnost, odvaha, uměřenost. Nejsou hodnocené body.
+- Verze 3 přidává **Mentora**: čtyři krátké kroky nad vlastní situací (událost a výklad; co ovlivním; ctnost; malý další krok), plus zcela dobrovolné ranní a večerní úvahy. Ranní příprava je volně inspirována Markem Aureliem (*Hovory k sobě* II.1), večerní ohlédnutí Senekou (*O hněvu* III.36). Nejsou zde série, penalizace za vynechání ani upozornění mimo aplikaci. Mentor skládá odpověď z tvých slov a připravených pravidel; není to model, který by tvé situaci rozuměl jako člověk.
 - V deníku lze označit, zda ses věnoval přírodě, čtení, lidem, pohybu, tvoření nebo odpočinku. Kompas počítá třicetidenní přehled z těchto štítků, jednoduchých zmínek v textu a zapsaných cílů.
 - Pokud je dost zápisů a oblast se v nich dlouho neobjevila, kompas ji může jemně navrhnout. Absence zmínky není důkaz, že se aktivita nestala. Návrhy jsou jednoduchá pravidla, nikoli konverzační umělá inteligence.
 - Starší záznamy ze stejného prohlížeče zůstávají zachované; rozšířený formát zálohy zachovává i nové štítky.
@@ -24,7 +25,7 @@ Pokud aktualizuješ už publikovanou verzi, nahraj všechny soubory znovu včetn
 
 ## Data a soukromí
 
-Zápisy, cíle a preference jsou v `localStorage` daného prohlížeče. Není tu přihlášení ani synchronizace mezi telefonem a počítačem. GitHub Pages hostuje veřejně zdrojový kód aplikace, **nikoli tvé záznamy**. Pravidelně použij **Stáhnout zálohu**. Import stávající data nahradí po potvrzení. Smazání dat prohlížeče odstraní místní záznamy. Neexistují push notifikace; páteční impuls se ukáže při otevření aplikace.
+Zápisy, cíle, mentorovy rozhovory a preference jsou v `localStorage` daného prohlížeče. Není tu přihlášení ani synchronizace mezi telefonem a počítačem. GitHub Pages hostuje veřejně zdrojový kód aplikace, **nikoli tvé záznamy**. Pravidelně použij **Stáhnout zálohu**. Import stávající data nahradí po potvrzení. Smazání dat prohlížeče odstraní místní záznamy. Neexistují push notifikace; páteční impuls se ukáže při otevření aplikace.
 
 Návrhy kompasu jsou lokální pravidla nad tvými zájmy, energií a zápisy, bez vzdáleného AI modelu. V dalších verzích lze přidat skutečný konverzační mentor, ale ten by vyžadoval backend a řešení přenosu soukromých záznamů.
 
