@@ -32,7 +32,7 @@
   const cleanText=s=>String(s||'').slice(0,5000);
   const PERSONAL_INTERESTS=['culture','models','hike','discover','travel','close'];
   const NEW_INTERESTS=['creative','cooking','skills','learning','mindfulness','games'];
-  const fresh=()=>({version:1,entries:{},goals:[],checks:{},reflections:{},interests:['nature','reading','friends','sport','rest',...PERSONAL_INTERESTS,...NEW_INTERESTS],interestsVersion:3,suggestions:{},mentorSessions:[],rituals:{},xpEvents:{}});
+  const fresh=()=>({version:1,entries:{},goals:[],checks:{},reflections:{},interests:['nature','reading','friends','sport','rest',...PERSONAL_INTERESTS,...NEW_INTERESTS],interestsVersion:3,suggestions:{},mentorSessions:[],rituals:{},xpEvents:{},thoughtNotes:{}});
   function normalize(raw){
     if(!raw||raw.version!==1||typeof raw!=='object')throw Error('Neznámý formát zálohy.');
     const data=fresh();
@@ -44,6 +44,7 @@
     if(raw.suggestions&&typeof raw.suggestions==='object'){for(const [id,date] of Object.entries(raw.suggestions))if(INTERESTS.some(x=>x.id===id)&&validDate(date))data.suggestions[id]=date}
     if(Array.isArray(raw.mentorSessions))data.mentorSessions=raw.mentorSessions.slice(-100).filter(s=>s&&validDate(s.date)&&typeof s.situation==='string').map(s=>({id:cleanText(s.id).slice(0,80),date:s.date,situation:cleanText(s.situation),fact:cleanText(s.fact),story:cleanText(s.story),control:cleanText(s.control),outside:cleanText(s.outside),virtue:['wisdom','justice','courage','moderation'].includes(s.virtue)?s.virtue:'wisdom',next:cleanText(s.next)}));
     for(const [date,r] of Object.entries(raw.rituals||{}))if(validDate(date)&&r&&typeof r==='object')data.rituals[date]={morning:{intention:cleanText(r.morning?.intention),obstacle:cleanText(r.morning?.obstacle)},evening:{good:cleanText(r.evening?.good),hard:cleanText(r.evening?.hard),next:cleanText(r.evening?.next)}};
+    for(const [key,note] of Object.entries(raw.thoughtNotes||{}).slice(0,250))if(key.length<=180&&note&&typeof note.text==='string')data.thoughtNotes[key]={text:note.text.slice(0,2000),updated:validDate(note.updated)?note.updated:today()};
     for(const [key,event] of Object.entries(raw.xpEvents||{}).slice(0,20000))if(key.length<=180&&event&&Number.isInteger(event.points)&&event.points>=1&&event.points<=20&&validDate(event.date))data.xpEvents[key]={points:event.points,date:event.date};
     return data;
   }
@@ -152,9 +153,33 @@
     if(save()){if(safeReload)loadEntry();render();$('complete-suggestion').disabled=true;$('edit-completion').hidden=false;$('suggestion-feedback').textContent='Zapsáno do deníku. Text můžeš upravit.'}
   });
   $('edit-completion').addEventListener('click',()=>{$('entry-date').value=today();loadEntry();showView('journal')});
-  function renderThought(){const items=window.STOIC_THOUGHTS||[];if(!items.length)return;const thought=items[((dayNumber(today())%items.length)+items.length)%items.length],section=Number(thought.section.match(/\d+/)?.[0]);$('thought-source').textContent=thought.sourceLabel|| (thought.type==='stoic'?`Epiktétos, Enchiridion ${thought.section}`:`Buddhistický text ${thought.section}`);$('thought-count').textContent=!thought.sourceLabel&&thought.type==='stoic'&&window.FAVORITE_SECTIONS.includes(section)?'★ Tvoje vybraná kapitola':'';$('thought-title').textContent=thought.title;$('thought-text').textContent=thought.thought;$('thought-question').textContent=thought.question;$('thought-step').textContent=`Krok: ${thought.step}`}
-  function renderCard(card,holder){const section=Number(card.section.match(/\d+/)?.[0]),favorite=!card.sourceLabel&&card.type==='stoic'&&window.FAVORITE_SECTIONS.includes(section),item=node('details','thought-item'),title=node('summary','',card.title),body=node('div','thought-body');item.append(title);body.append(node('small','kicker',card.sourceLabel|| (card.type==='stoic'?`ENCHIRIDION ${card.section}${favorite?' · ★ TVŮJ VÝBĚR':''}`:`BUDDHISMUS · ${card.section}`)),node('p','',card.thought),node('p','muted',`Otázka: ${card.question}`),node('p','muted',`Krok: ${card.step}`));if(card.sourceUrl){const link=node('a','source','Zobrazit pramen ↗');link.href=card.sourceUrl;link.target='_blank';link.rel='noopener noreferrer';body.append(link)}item.append(body);holder.append(item)}
-  $('thought-archive').addEventListener('toggle',()=>{if(!$('thought-archive').open||$('enchiridion-list').children.length)return;for(const card of window.STOIC_LIBRARY||[])renderCard(card,$(card.type==='stoic'?'enchiridion-list':'buddhist-list'));for(const card of window.ADDITIONAL_WISDOM||[])renderCard(card,$(card.type==='stoic'?'stoic-more-list':'buddhist-list'))});
+  const thoughtKey=card=>`${card.type}:${card.sourceLabel||card.section}`;
+  let currentThought=null;
+  function renderThought(){
+    const items=window.STOIC_THOUGHTS||[];if(!items.length)return;
+    const thought=items[((dayNumber(today())%items.length)+items.length)%items.length],section=Number(thought.section.match(/\d+/)?.[0]);currentThought=thought;
+    $('thought-source').textContent=thought.sourceLabel|| (thought.type==='stoic'?`Epiktétos, Enchiridion ${thought.section}`:`Buddhistický text ${thought.section}`);
+    $('thought-count').textContent=!thought.sourceLabel&&thought.type==='stoic'&&window.FAVORITE_SECTIONS.includes(section)?'★ Tvoje vybraná kapitola':'';
+    $('thought-title').textContent=thought.title;$('thought-text').textContent=thought.thought;
+    $('thought-question').textContent=thought.question;$('thought-step').textContent=`Krok: ${thought.step}`;
+    $('thought-note').value=data.thoughtNotes[thoughtKey(thought)]?.text||'';$('thought-note-status').textContent='';
+  }
+  function saveThoughtNote(card,value,message){
+    const key=thoughtKey(card),text=value.trim().slice(0,2000),before=data.thoughtNotes[key];
+    if(text)data.thoughtNotes[key]={text,updated:today()};else delete data.thoughtNotes[key];
+    if(save()){message.textContent=text?'Poznámka uložena.':'Poznámka smazána.';return true}
+    if(before)data.thoughtNotes[key]=before;else delete data.thoughtNotes[key];return false;
+  }
+  $('thought-note-form').addEventListener('submit',event=>{event.preventDefault();if(currentThought)saveThoughtNote(currentThought,$('thought-note').value,$('thought-note-status'))});
+  function renderCard(card,holder){
+    const section=Number(card.section.match(/\d+/)?.[0]),favorite=!card.sourceLabel&&card.type==='stoic'&&window.FAVORITE_SECTIONS.includes(section),item=node('details','thought-item'),title=node('summary','',card.title),body=node('div','thought-body');
+    item.append(title);body.append(node('small','kicker',card.sourceLabel|| (card.type==='stoic'?`ENCHIRIDION ${card.section}${favorite?' · ★ TVŮJ VÝBĚR':''}`:`BUDDHISMUS · ${card.section}`)),node('p','',card.thought),node('p','muted',`Otázka: ${card.question}`),node('p','muted',`Krok: ${card.step}`));
+    if(card.sourceUrl){const link=node('a','source','Zobrazit pramen ↗');link.href=card.sourceUrl;link.target='_blank';link.rel='noopener noreferrer';body.append(link)}
+    const notes=node('form','archive-note-form'),label=node('label','','Moje poznámka'),field=node('textarea');field.rows=2;field.maxLength=2000;field.value=data.thoughtNotes[thoughtKey(card)]?.text||'';label.append(field);const actions=node('div','note-actions'),button=node('button','secondary','Uložit poznámku'),message=node('span','muted');button.type='submit';message.setAttribute('role','status');actions.append(button,message);notes.append(label,actions);notes.addEventListener('submit',event=>{event.preventDefault();if(saveThoughtNote(card,field.value,message)&&currentThought&&thoughtKey(currentThought)===thoughtKey(card))$('thought-note').value=data.thoughtNotes[thoughtKey(card)]?.text||''});body.append(notes);
+    item.append(body);item.addEventListener('toggle',()=>{if(item.open){field.value=data.thoughtNotes[thoughtKey(card)]?.text||'';message.textContent=''}});item.dataset.search=[card.title,card.sourceLabel||card.section,card.thought,card.question].join(' ').toLocaleLowerCase('cs-CZ');holder.append(item);
+  }
+  $('thought-archive').addEventListener('toggle',()=>{if(!$('thought-archive').open||$('enchiridion-list').children.length)return;for(const card of window.STOIC_LIBRARY||[])renderCard(card,$(card.type==='stoic'?'enchiridion-list':'buddhist-list'));for(const card of window.ALL_EXTRA_WISDOM||window.ADDITIONAL_WISDOM||[])renderCard(card,$(card.type==='stoic'?'stoic-more-list':'buddhist-list'))});
+  $('thought-search').addEventListener('input',()=>{const query=$('thought-search').value.trim().toLocaleLowerCase('cs-CZ'),groups=document.querySelectorAll('.library-group');let matches=0;groups.forEach(group=>{let count=0;group.querySelectorAll('.thought-item').forEach(item=>{item.hidden=!!query&&!item.dataset.search.includes(query);if(!item.hidden)count++});if(query)group.open=count>0;matches+=count});$('thought-search-count').textContent=query?`${matches} ${matches===1?'výsledek':matches>=2&&matches<=4?'výsledky':'výsledků'}`:''});
   $('practice-library').addEventListener('toggle',()=>{const holder=$('practice-list');if(!$('practice-library').open||holder.children.length)return;for(const item of window.STOIC_PRACTICES||[]){const card=node('details','practice-item'),summary=node('summary','',item.title),body=node('div','');body.append(node('p','muted',item.when),node('p','',item.try),node('small','source',item.sourceLabel));if(item.sourceUrl){const link=node('a','source','Pramen ↗');link.href=item.sourceUrl;link.target='_blank';link.rel='noopener noreferrer';body.append(link)}card.append(summary,body);holder.append(card)}});
 
   function renderHomePrompt(){const day=new Date().getDay(),freeDay=day===0||day===5||day===6,history=Object.keys(data.entries).filter(date=>date<=today()&&daysSince(date)<30).length,lastFriends=relevantDates(INTERESTS.find(x=>x.id==='friends'))[0],friendGap=lastFriends?daysSince(lastFriends):null;if(freeDay){$('home-prompt-title').textContent='Jak chceš využít delší volno?';$('home-prompt').textContent='Výlet, setkání, tvoření nebo odpočinek? Kompas nabídne nápad podle tvého času.'}else if(data.interests.includes('friends')&&history>=4&&(friendGap==null||friendGap>=21)){$('home-prompt-title').textContent='Co vztahy v poslední době?';$('home-prompt').textContent='V zápiscích je málo zmínek o setkání s blízkými. Kompas může nabídnout nápad.'}else{$('home-prompt-title').textContent='Co dnes potřebuješ?';$('home-prompt').textContent='Vyber si nápad podle času a energie.'}}
