@@ -1,4 +1,4 @@
-const CACHE = 'stoicky-kompas-v8';
+const CACHE = 'stoicky-kompas-v10';
 const ASSETS = [
   './', './index.html', './style.css', './thoughts.js', './app.js',
   './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'
