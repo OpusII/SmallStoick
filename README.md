@@ -11,8 +11,9 @@ Soukromý deník a jemný průvodce pro týdenní cíle. Stačí statický web, 
 - Pokud je dost zápisů a oblast se v nich dlouho neobjevila, kompas ji může jemně navrhnout. Absence zmínky není důkaz, že se aktivita nestala. Návrhy jsou jednoduchá pravidla, nikoli konverzační umělá inteligence.
 - Starší záznamy ze stejného prohlížeče zůstávají zachované; rozšířený formát zálohy zachovává i nové štítky.
 - Verze 4 přidává XP a úrovně. Deník přidá 8 XP za den, zapsaný cíl 7 XP (nejvýše dvě různá splnění za den), mentorský rozhovor 8 XP za den, ranní úvaha 2 XP, večerní 3 XP a týdenní ohlédnutí 12 XP. Návrat po aspoň sedmidenní pauze přidá 10 XP. Každou odměnu lze získat jen jednou za příslušný den nebo týden; úpravy zápisu ji nerozmnoží. Úroveň roste podle hranice `60 × (úroveň − 1) + 6 × (úroveň − 1)²`, bez konečného stropu. Dřívější XP se při aktualizaci dopočítají ze stávajících záznamů a nikdy se kvůli pauze neodečítají. Počet zaznamenaných aktivních dní za posledních 28 dní dává jen kontext, bez série a sankcí. XP i úrovně jsou uložené pouze v místním prohlížeči a v záloze.
+- Verze 5 rozšiřuje Kompas o časové okno. Krátký večer nabízí dostupné činnosti; při pár hodinách nebo půldni se zpřístupní historie, kultura, modelářství a delší výpravy. Nízká energie vyřadí fyzicky náročnější tipy. Volby zájmů můžeš na stránce Kompasu vypnout. Při první aktualizaci se nové obecné okruhy přidají ke stávajícím volbám; další změny zůstávají podle tvého výběru. Nejsou zde jméno, adresa, zaměstnání, zdravotní stav ani soukromé vztahy uživatele napevno zapsané ve veřejném kódu. Hraní je uvedeno jako legitimní možnost odpočinku, nikoli jako selhání.
 
-Na úvodní stránce pod dnešní myšlenkou rozbal **Procházet všech 51 oddílů Enchiridionu a cvičení všímavosti**. Označení **TVÁ CESTA · VERZE 4** slouží i ke kontrole načtené verze.
+Na úvodní stránce pod dnešní myšlenkou rozbal **Procházet všech 51 oddílů Enchiridionu a cvičení všímavosti**. Označení **TVÁ CESTA · VERZE 5** slouží i ke kontrole načtené verze.
 
 ## Vyzkoušení
 
